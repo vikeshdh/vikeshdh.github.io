@@ -1,16 +1,44 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Vikesh Dheeriya",
-    "section": "",
-    "text": "Hi, I’m Vikesh!"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "{.img-fluid rounded-3 shadow-sm}\n\n\n{.img-fluid rounded-3 shadow-sm}\n\n\n{.img-fluid rounded-3 shadow-sm}\n\n\n\n\nI’m a third-year undergraduate at UC Santa Barbara pursuing a B.S. in Hydrologic Science & Policy with a minor in Philosophy.\nMy academic path blends physical science with critical thinking, driving me to ask why water systems matter to society.\n\n\n\n\nAt the core of my work is the question:\n\nHow will elephants navigate an increasingly fragmented, drier landscape?\n\nUsing Sentinel-2 imagery, CHIRPS rainfall data, and Google Earth Engine, I model ephemeral surface-water dynamics and feed these layers into circuit-theory corridors to predict future elephant movement under SSP climate scenarios.\nKey skills & tools:\n\nRemote sensing (GEE, terra, raster)\n\nGIS network analysis\n\nR / Python workflow automation\n\n\n\n\n\n\nDEI Coordinator, UCSB Hydrology Club — developing outreach events that bring first-generation and historically excluded students into water-science careers.\n\nPlant-based recipe developer — writing a cookbook that pairs global flavors with local produce.\n\nOcean enthusiast — if the waves permit, you’ll find me open-water swimming at dawn.\n\n\n\n\nRésumé Projects Vegan Cooking"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About me",
+    "section": "Education",
+    "text": "Education\nUC Santa Barbara · B.S. Hydrologic Science & Policy Sep 2022 – Jun 2026 (expected)"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About me",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "about.html#early-life-education",
+    "href": "about.html#early-life-education",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a third-year undergraduate at UC Santa Barbara pursuing a B.S. in Hydrologic Science & Policy with a minor in Philosophy.\nMy academic path blends physical science with critical thinking, driving me to ask why water systems matter to society."
+  },
+  {
+    "objectID": "about.html#research-focus",
+    "href": "about.html#research-focus",
+    "title": "About Me",
+    "section": "",
+    "text": "At the core of my work is the question:\n\nHow will elephants navigate an increasingly fragmented, drier landscape?\n\nUsing Sentinel-2 imagery, CHIRPS rainfall data, and Google Earth Engine, I model ephemeral surface-water dynamics and feed these layers into circuit-theory corridors to predict future elephant movement under SSP climate scenarios.\nKey skills & tools:\n\nRemote sensing (GEE, terra, raster)\n\nGIS network analysis\n\nR / Python workflow automation"
+  },
+  {
+    "objectID": "about.html#beyond-the-lab",
+    "href": "about.html#beyond-the-lab",
+    "title": "About Me",
+    "section": "",
+    "text": "DEI Coordinator, UCSB Hydrology Club — developing outreach events that bring first-generation and historically excluded students into water-science careers.\n\nPlant-based recipe developer — writing a cookbook that pairs global flavors with local produce.\n\nOcean enthusiast — if the waves permit, you’ll find me open-water swimming at dawn.\n\n\n\n\nRésumé Projects Vegan Cooking"
   }
 ]
