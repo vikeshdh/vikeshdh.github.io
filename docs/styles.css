@@ -196,3 +196,12 @@ a:focus{ color: var(--green-hover); }
   --bs-btn-hover-color: var(--cream-bg);
   --bs-btn-hover-border-color: var(--green-main);
 }
+/* force all figure captions to be solid black */
+figcaption {
+  color: #000 !important;
+}
+
+/* if you’re using Quarto’s layout-ncol or columns, captions get .q-caption */
+.q-caption {
+  color: #000 !important;
+}

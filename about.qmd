@@ -4,60 +4,46 @@ page-layout: article
 toc: true
 ---
 
-::: {.container-lg}
+::: {layout-ncol=3}
 
-<!-- ======= Hero strip with 3-card photo row ======= -->
-<div class="row g-4 mb-5">
+![Like a Redwood, I enjoy branching out.](tree1.jpg){fig-cap="Like a Redwood, I enjoy branching out"}
 
-<div class="col-12 col-md-4">
-![Elephant fieldwork](images/about-elephant.jpg){.img-fluid rounded-3 shadow-sm}
-</div>
+![To me, there's always mushroom for improvement...](food1.jpg){fig-cap="There's always mushroom for improvement"}
 
-<div class="col-12 col-md-4">
-![Hydrology map](images/about-remote-sensing.jpg){.img-fluid rounded-3 shadow-sm}
-</div>
+![Addressing the elephant in the room!](vikpic.jpg){fig-cap="Addressing the elephant in the room"}
 
-<div class="col-12 col-md-4">
-![Plant-based cooking](images/about-cooking.jpg){.img-fluid rounded-3 shadow-sm}
-</div>
+:::
 
-</div>
+## 1 · Early Life & Education {.pt-2}
 
-## 1 · Early Life & Education  {.pt-2}
+I grew up in Palos Verdes, California where the proximity to the ocean led me to UCSB. I will be graduating in 2026 with a B.S. in **Hydrologic Science and Policy** where I hope the future research that I conduct will be used to implement progressive water-based policies that improve the lives of people and the health of our environment.
 
-I’m a third-year undergraduate at **UC Santa Barbara** pursuing a B.S. in Hydrologic Science & Policy with a minor in Philosophy.  
-My academic path blends physical science with critical thinking, driving me to ask *why* water systems matter to society.
+------------------------------------------------------------------------
 
----
+## 2 · Research Focus {.pt-2}
 
-## 2 · Research Focus  {.pt-2}
+> *As climate change continues to diminish the quality of natural land cover, understanding how elephant movement patterns evolve is crucial to implementing policy solutions that enhance ecological conservation and prevent human-wildlife conflict.*
 
-At the core of my work is the question:
-
-> *How will elephants navigate an increasingly fragmented, drier landscape?*
-
-Using **Sentinel-2 imagery, CHIRPS rainfall data, and Google Earth Engine**, I model ephemeral surface-water dynamics and feed these layers into circuit-theory corridors to predict future elephant movement under SSP climate scenarios.  
+Using **Sentinel-2 imagery, CHIRPS rainfall data, and Google Earth Engine**, I model ephemeral surface-water dynamics to predict future elephant movement under SSP climate scenarios.
 Key skills & tools:
 
-- Remote sensing (GEE, `terra`, `raster`)  
-- GIS network analysis  
-- R / Python workflow automation
+-   Remote sensing (GEE, `terra`, `raster`)\
+-   GIS network analysis
+-   reproducible R / Python workflows
 
----
+------------------------------------------------------------------------
 
-## 3 · Beyond the Lab  {.pt-2}
+## 3 · Beyond Academics {.pt-2}
 
-- **DEI Coordinator, UCSB Hydrology Club** — developing outreach events that bring first-generation and historically excluded students into water-science careers.  
-- **Plant-based recipe developer** — writing a cookbook that pairs global flavors with local produce.  
-- **Ocean enthusiast** — if the waves permit, you’ll find me open-water swimming at dawn.
+-   **DEI Coordinator, UCSB Hydrology Club** — developing outreach events that bring first-generation and historically excluded students into water-related careers.
+- **Lifeguard** - my interests in hydrologic systems doesn't stop at science and policy; I've been lifeguarding since I was 15!
+-   **Vegan recipe developer** — I've been writing a cookbook with all my favorite protein-rich, plant-forward recipes I've been perfecting over the years
+-   **Athletics** — After a decade of playing water polo, I've dabbled in power lifting, jumping higher, surfing, basketball, spikeball, and everything in between. I'm motivated to break the myth that one needs meat to be strong.
 
----
+------------------------------------------------------------------------
 
 ### Quick Links
 
-```{=html}
-<a class="btn btn-outline-primary me-2 mb-2" href="resume.qmd">Résumé</a>
-<a class="btn btn-outline-primary me-2 mb-2" href="projects.qmd">Projects</a>
-<a class="btn btn-outline-primary mb-2" href="hobbies.qmd">Vegan Cooking</a>
+\`\`\`{=html} <a class="btn btn-outline-primary me-2 mb-2" href="resume.qmd">Résumé</a> <a class="btn btn-outline-primary me-2 mb-2" href="projects.qmd">Projects</a> <a class="btn btn-outline-primary mb-2" href="hobbies.qmd">Cooking</a>
 
----
+------------------------------------------------------------------------
