@@ -14,9 +14,9 @@ toc: true
 
 :::
 
-## 1 · Early Life & Education {.pt-2}
+## 1 ·Education {.pt-2}
 
-I grew up in Palos Verdes, California where the proximity to the ocean led me to UCSB. I will be graduating in 2026 with a B.S. in **Hydrologic Science and Policy** where I hope the future research that I conduct will be used to implement progressive water-based policies that improve the lives of people and the health of our environment.
+I will be graduating in 2026 with a B.S. in **Hydrologic Science and Policy** where I hope the future research that I conduct will be used to implement progressive water-based policies that improve the lives of people and the health of our environment. My interests include remote sensing, agricultural land use, and water policy.
 
 ------------------------------------------------------------------------
 
@@ -31,19 +31,15 @@ Key skills & tools:
 -   GIS analysis
 -   reproducible R / Python workflows
 
+[Click here for a flash talk!](Elephant Connectivity.mp4)
+
 ------------------------------------------------------------------------
 
 ## 3 · Beyond Academics {.pt-2}
 
 -   **DEI Coordinator, UCSB Hydrology Club** — developing outreach events that bring first-generation and historically excluded students into water-related careers.
 - **Lifeguard** - my interest in hydrologic systems doesn't stop at science and policy; I've been lifeguarding since I was 15!
--   **Vegan recipe developer** — I've been writing a cookbook with all my favorite protein-rich, plant-forward recipes I've been perfecting over the years
+-   **Recipe development** — I've been writing a cookbook with all my favorite protein-rich, plant-forward recipes I've been perfecting over the years
 -   **Athletics** — After a decade of playing water polo, I've dabbled in power lifting, jumping higher, surfing, basketball, spikeball, and everything in between. I'm motivated to break the myth that one needs meat to be strong.
-
-------------------------------------------------------------------------
-
-### Quick Links
-
-\`\`\`{=html} <a class="btn btn-outline-primary me-2 mb-2" href="resume.qmd">Résumé</a> <a class="btn btn-outline-primary me-2 mb-2" href="projects.qmd">Projects</a> <a class="btn btn-outline-primary mb-2" href="hobbies.qmd">Cooking</a>
 
 ------------------------------------------------------------------------
