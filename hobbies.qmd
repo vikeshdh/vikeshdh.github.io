@@ -1,3 +1,152 @@
 ---
-title: "Hobbies"
+title: "cooking"
 ---
+<style>
+.food-gallery-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 1.2rem;
+max-width: 1250px;
+margin: 0 auto 2.5rem auto;
+}
+.food-photo-tile {
+position: relative;
+width: 100%;
+max-width: 380px;
+aspect-ratio: 1/1;
+overflow: hidden;
+border-radius: 1.3rem;
+box-shadow: 0 2px 16px rgba(20,90,50,0.12);
+background: #fff;
+cursor: pointer;
+transition: box-shadow .18s;
+margin:0;
+}
+.food-photo-tile:hover {
+box-shadow: 0 10px 36px rgba(20,90,50,0.19);
+z-index: 2;
+}
+.food-photo-tile img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform .23s;
+}
+.food-photo-tile:hover img {
+transform: scale(1.09) rotate(-1.5deg);
+}
+.food-photo-caption {
+position: absolute;
+bottom: 0; left: 0; right: 0;
+background: rgba(255,255,255,0.82);
+color: #0C2B1A;
+font-weight: 500;
+padding: .35em .7em .38em .7em;
+font-size: 0.86em;
+text-align: center;
+opacity: 0;
+transition: opacity .15s;
+border-radius: 0 0 1.3rem 1.3rem;
+}
+.food-photo-tile:hover .food-photo-caption {
+opacity: 1;
+}
+@media (max-width: 1200px) {
+.food-gallery-grid { grid-template-columns: repeat(2, 1fr);}
+}
+@media (max-width: 800px) {
+.food-gallery-grid { grid-template-columns: 1fr;}
+.food-photo-tile { max-width: 99vw; }
+}
+</style>
+
+<h1 class="display-4 text-center mb-4" style="color:var(--green-main);">Viksveggies — My Plant-Based Kitchen</h1>
+<p class="lead text-center mb-5" style="max-width:540px;margin:auto;">
+See even more food and recipe ideas at
+<a href="https://instagram.com/viksveggies" target="_blank" class="btn btn-outline-primary btn-sm ms-2" style="font-size:1.07em;vertical-align:-2px;"><i class="bi bi-instagram"></i> Instagram</a>
+</p>
+
+<div class="food-gallery-grid">
+
+<div class="food-photo-tile">
+<img src="food2.jpg" alt="Tofu Tikka Masala">
+<div class="food-photo-caption">Tofu Tikka Masala</div>
+</div>
+
+<div class="food-photo-tile">
+<img src="food3.jpg" alt="Udon with Crispy Tempeh">
+<div class="food-photo-caption">Udon with Crispy Tempeh</div>
+</div>
+
+<div class="food-photo-tile">
+<img src="food4.jpg" alt="Charred Corn Summer Salad">
+<div class="food-photo-caption">Charred Corn Summer Salad</div>
+</div>
+
+<div class="food-photo-tile">
+<img src="food5.jpg" alt="Eggplant Katsu Curry">
+<div class="food-photo-caption">Eggplant Katsu Curry</div>
+</div>
+
+<div class="food-photo-tile">
+<img src="food6.jpg" alt="Chickpea Shakshuka">
+<div class="food-photo-caption">Chickpea Shakshuka</div>
+</div>
+
+<div class="food-photo-tile">
+<img src="food7.jpg" alt="Mapo Tofu">
+<div class="food-photo-caption">Mapo Tofu</div>
+</div>
+
+<div class="food-photo-tile">
+<img src="food8.jpg" alt="Jackfruit Tacos">
+<div class="food-photo-caption">Jackfruit Tacos</div>
+</div>
+
+<div class="food-photo-tile">
+<img src="food9.jpg" alt="Kimchi Fried Rice">
+<div class="food-photo-caption">Kimchi Fried Rice</div>
+</div>
+
+<div class="food-photo-tile">
+<img src="food10.jpg" alt="Vegan Sushi Platter">
+<div class="food-photo-caption">Vegan Sushi Platter</div>
+</div>
+
+</div>
+
+
+
+<section style="background: var(--glass-bg); padding:3rem 0;">
+<h2 class="display-5 text-center mb-4" style="color:var(--green-main);">Plant-Based Resources</h2>
+<p class="text-center mb-4">Curated links for anyone curious about plant-based living, from nutrition science to kitchen hacks.</p>
+<div class="container">
+<ul class="list-group list-group-flush" style="max-width:600px;margin:auto;">
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-film me-3" style="font-size:1.3em;color:#145A32;"></i>
+<a href="https://www.netflix.com/title/80174177" target="_blank" style="font-weight:600;">
+The Game Changers (Netflix Documentary)
+</a>
+</li>
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-book me-3" style="font-size:1.3em;color:#145A32;"></i>
+<a href="https://www.how-not-to-die.com/" target="_blank" style="font-weight:600;">
+How Not to Die by Dr. Michael Greger
+</a>
+</li>
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-globe me-3" style="font-size:1.3em;color:#145A32;"></i>
+<a href="https://forksoverknives.com/" target="_blank" style="font-weight:600;">
+Forks Over Knives (Recipes & Research)
+</a>
+</li>
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-instagram me-3" style="font-size:1.3em;color:#145A32;"></i>
+<a href="https://instagram.com/viksveggies" target="_blank" style="font-weight:600;">
+@viksveggies Instagram
+</a>
+</li>
+<!-- Add more resources as needed -->
+</ul>
+</div>
+</section>
