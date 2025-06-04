@@ -36,18 +36,7 @@ a:focus{ color: var(--green-hover); }
 /* =====================================================
    NAVBAR (two-row, centred)
 ===================================================== */
-.navbar{
-  background: var(--green-main) !important;
-  box-shadow: 0 2px 6px rgba(0,0,0,.15);
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-.navbar .container-fluid{
-  flex-direction: column;
-  align-items: center;
-  padding-inline: 0;
-}
 
 /* ---------- BRAND (row 1) */
 .navbar-brand{
@@ -205,3 +194,68 @@ figcaption {
 .q-caption {
   color: #000 !important;
 }
+/* =====================================================
+   NAVBAR (two-row, centred)
+===================================================== */
+.navbar{
+  background: var(--green-main) !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar .container-fluid{
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 0;
+}
+
+/* ---------- BRAND (row 1) */
+.navbar-brand{
+  width:100%;
+  text-align:center;
+  margin-bottom:.35rem;
+
+  font-family:'League Spartan', sans-serif;
+  font-size:2.1rem;
+  font-weight:700;
+  letter-spacing:4px;
+  text-transform:uppercase;
+
+  /* cream fill + dark outline */
+  color: var(--cream-bg);
+  -webkit-text-stroke: 1.4px var(--outline-dark);
+}
+
+/* Firefox fallback (no text-stroke) */
+@supports (-moz-appearance:none){
+  .navbar-brand{
+    text-shadow:
+      -1px -1px 0 var(--outline-dark),
+       1px -1px 0 var(--outline-dark),
+      -1px  1px 0 var(--outline-dark),
+       1px  1px 0 var(--outline-dark);
+  }
+}
+
+/* ---------- LINK ROW (row 2) */
+.navbar-collapse{
+  flex-basis:100%;
+  justify-content:center;
+}
+
+.navbar-nav{
+  flex-direction:row;
+  gap:1.2rem;
+}
+
+/* Remove search and any previous search tweaks */
+#quarto-search { display:none !important; }
+
+.navbar .nav-link{
+  color:#FFF !important;
+  transition:color .2s;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus{ color:var(--green-hover) !important; }
+

@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "about me"
 page-layout: article
 toc: true
 ---
@@ -20,7 +20,7 @@ I grew up in Palos Verdes, California where the proximity to the ocean led me to
 
 ------------------------------------------------------------------------
 
-## 2 · Research Focus {.pt-2}
+## 2 · Current Research Focus {.pt-2}
 
 > *As climate change continues to diminish the quality of natural land cover, understanding how elephant movement patterns evolve is crucial to implementing policy solutions that enhance ecological conservation and prevent human-wildlife conflict.*
 
@@ -28,7 +28,7 @@ Using **Sentinel-2 imagery, CHIRPS rainfall data, and Google Earth Engine**, I m
 Key skills & tools:
 
 -   Remote sensing (GEE, `terra`, `raster`)\
--   GIS network analysis
+-   GIS analysis
 -   reproducible R / Python workflows
 
 ------------------------------------------------------------------------
@@ -36,7 +36,7 @@ Key skills & tools:
 ## 3 · Beyond Academics {.pt-2}
 
 -   **DEI Coordinator, UCSB Hydrology Club** — developing outreach events that bring first-generation and historically excluded students into water-related careers.
-- **Lifeguard** - my interests in hydrologic systems doesn't stop at science and policy; I've been lifeguarding since I was 15!
+- **Lifeguard** - my interest in hydrologic systems doesn't stop at science and policy; I've been lifeguarding since I was 15!
 -   **Vegan recipe developer** — I've been writing a cookbook with all my favorite protein-rich, plant-forward recipes I've been perfecting over the years
 -   **Athletics** — After a decade of playing water polo, I've dabbled in power lifting, jumping higher, surfing, basketball, spikeball, and everything in between. I'm motivated to break the myth that one needs meat to be strong.
 

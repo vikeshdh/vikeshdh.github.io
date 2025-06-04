@@ -4,6 +4,15 @@ page-layout: full
 toc: false
 ---
 
+```{=html}
+<style>
+body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+</style>
+```
+
 <section class="hero-fancy d-flex justify-content-center">
 
 ::::: {.glass-card .p-5 .text-center .text-lg-start}
@@ -27,8 +36,6 @@ Welcome, I’m Vikesh!
 I'm a third-year B.S. <strong>Hydrologic Science & Policy</strong> at UC Santa Barbara. <br>
 
 </p>
-
-<a class="btn btn-outline-primary me-2 mb-2" href="projects.qmd">Projects</a> <a class="btn btn-outline-primary mb-2"     href="resume.qmd">Résumé</a>
 
 </div>
 ::::

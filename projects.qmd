@@ -1,3 +1,167 @@
 ---
-title: "Projects"
+title: ""
+page-layout: article
+toc: false
 ---
+<style>
+body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+</style>
+<section class="hero-fancy d-flex justify-content-center flex-column align-items-center py-0 mt-0" style="margin-top:0; padding-top:0;">
+<h1 class="display-4 mb-3">portfolio</h1>
+<p class="lead mb-3 text-center">
+browse my recent work!
+</p>
+<a class="btn btn-outline-primary me-2 mb-2" href="index.qmd">← Back to Home</a>
+</section>
+<h1 class="display-3 mb-4 text-center text-primary">water-related</h1>
+<div class="container my-4">
+<div class="row justify-content-center">
+<!-- Santa Ynez Watershed Report -->
+<div class="col-md-10">
+<div class="glass-card p-4 mb-5 d-flex flex-row align-items-center shadow-lg" style="gap:2rem;">
+<div>
+<img src="watershed.png" alt="Santa Ynez Watershed Thumbnail" style="width:240px; max-width:95vw; border-radius:1.5rem; box-shadow:0 4px 20px #0003;">
+<figcaption class="mt-3 small text-muted text-center fst-italic">
+</figcaption>
+</div>
+<div>
+<h4 class="mb-2" style="font-size:1.2rem;">Santa Ynez Watershed Report</h4>
+<p class="mb-3" style="font-size:0.98rem;">
+I conducted a hydrologic analysis of the Santa Ynez River Watershed using HAWQS modeling to evaluate discharge under varying climate conditions (RCP 4.5 and RCP 8.5). I also designed detailed maps using ArcGIS to visualize watershed dynamics, including topography, soil characteristics, and land use distribution.
+</p>
+<div class="mb-3">
+<a href="SantaYnezWatershed.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+View PDF Report
+</a>
+</div>
+<div>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- EIR Project -->
+<div class="col-md-10">
+<div class="glass-card p-4 mb-5 d-flex flex-row align-items-center shadow-lg" style="gap:2rem;">
+<div>
+<img src="eircover.jpg" alt="EIR Report Thumbnail" style="width:180px; max-width:95vw; border-radius:1.5rem; box-shadow:0 4px 20px #0003;">
+<figcaption class="mt-3 small text-muted text-center fst-italic">
+</figcaption>
+</div>
+<div>
+<h4 class="mb-2" style="font-size:1.2rem;">Environmental Impact Report - Hydrology</h4>
+<p class="mb-3" style="font-size:0.98rem;">
+After 20 weeks in UCSB's Advanced Environmental Impact Analysis, I prepared this EIR focusing on water resource impacts for a hypothetical faculty housing/classroom project. I conducted site visits, analyzed water quality data, proposed project alternatives, and evaluated regulatory compliance under CEQA.
+</p>
+<div class="mb-3">
+<a href="eir.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+View PDF Report
+</a>
+</div>
+<div>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Cuyama Infographic -->
+<div class="col-md-10">
+<div class="glass-card p-4 mb-5 d-flex flex-row align-items-center shadow-lg" style="gap:2rem;">
+<div>
+<img src="carrotwar.png" alt="Carrots Over Communities: The Cuyama Groundwater Crisis" style="width:320px; max-width:95vw; border-radius:1.5rem; box-shadow:0 4px 20px #0003;">
+<figcaption class="mt-3 small text-muted text-center fst-italic">
+</figcaption>
+</div>
+<div>
+<h4 class="mb-2" style="font-size:1.2rem;">Cuyama Groundwater Crisis Infographic</h4>
+<p class="mb-3" style="font-size:0.98rem;">
+I created an infographic summarizing the Cuyama Valley groundwater crisis -- including historic depletion trends, socioeconomic inequalities, and ongoing conflicts between big agribusiness and local farmers. 
+</p>
+<div class="mb-3">
+<a href="carrot.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+View Infographic (PDF)
+</a>
+</div>
+<div>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Dams in India StoryMap -->
+<div class="col-md-10">
+<div class="glass-card p-4 mb-5 d-flex flex-row align-items-center shadow-lg" style="gap:2rem;">
+<div>
+<img src="dams-thumb.jpg" alt="Dams in India StoryMap Thumbnail" style="width:180px; max-width:95vw; border-radius:1.5rem; box-shadow:0 4px 20px #0003;">
+<figcaption class="mt-3 small text-muted text-center fst-italic">
+</figcaption>
+</div>
+<div>
+<h4 class="mb-2" style="font-size:1.2rem;">Dams in India StoryMap</h4>
+<p class="mb-3" style="font-size:0.98rem;">
+An ArcGIS StoryMap detailing socioeconomic vulnerability and flood risk around major Indian dams, integrating demographic and hazard data for a holistic risk assessment.
+</p>
+<div class="mb-3">
+<a href="https://storymaps.arcgis.com/stories/c893f293ec0f4eb38d07e60368bd68a4/preview" target="_blank" class="btn btn-outline-primary btn-sm">
+View StoryMap
+</a>
+</div>
+<div>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+---
+
+<h1 class="display-3 mb-4 text-center text-primary">other projects</h1>
+
+<div class="container my-4">
+<div class="row justify-content-center">
+
+<!-- Vertical Jump Project -->
+<div class="container my-4">
+<div class="row justify-content-center">
+<div class="col-lg-10 d-flex justify-content-center">
+<div class="glass-card p-4 mb-5 d-flex flex-row align-items-center shadow-lg" style="gap:2rem;">
+<div>
+<img src="verticaljump.png" alt="ENVS-193DS Homework 03 Thumbnail" style="width:440px; max-width:95vw; border-radius:1.5rem; box-shadow:0 4px 20px #0003;">
+<figcaption class="mt-3 small text-muted text-center fst-italic">
+Vertical jump progression with relative soreness point data
+</figcaption>
+</div>
+<div>
+<h4 class="mb-2" style="font-size:1.2rem;">ENVS-193DS Homework 03</h4>
+<p class="mb-3" style="font-size:0.98rem;">
+This project tests the relation between vertical jump height and time since the most recent lower body strength training. Report includes data import, visualization, and interpretation for UCSB’s ENVS-193DS. Output includes code, graphics, and written discussion.
+</p>
+<div class="mb-3">
+<a href="https://rpubs.com/vikesh/1315995" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+View RPubs HTML Report
+</a>
+<a href="https://github.com/vikeshdh/ENVS-193DS_homework-03" target="_blank" class="btn btn-outline-dark btn-sm">
+GitHub Repo
+</a>
+</div>
+<div>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+

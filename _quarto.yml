@@ -10,17 +10,18 @@ website:
         href: index.qmd
       - text: about me
         href: about.qmd
-      - text: projects
+      - text: portfolio
         href: projects.qmd
       - text: resume
-        href: resume.qmd
+        href: Vikesh_Dheeriya_Resume.pdf
       - text: cooking
         href: hobbies.qmd
 
 format:
   html:
+    allow-html: true
     theme: flatly
-    css: styles.css           # overrides 
+    css: styles.css       
     toc: true
 
 editor: visual
