@@ -14,8 +14,8 @@ website:
         href: projects.qmd
       - text: resume
         href: Vikesh_Dheeriya_Resume.pdf
-      - text: cooking
-        href: hobbies.qmd
+      - text: viks veggies
+        href: viksveggies.qmd
 
 format:
   html:

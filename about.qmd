@@ -31,8 +31,6 @@ Key skills & tools:
 -   GIS analysis
 -   reproducible R / Python workflows
 
-[Click here for a flash talk!](Elephant Connectivity.mp4)
-
 ------------------------------------------------------------------------
 
 ## 3 · Beyond Academics {.pt-2}
