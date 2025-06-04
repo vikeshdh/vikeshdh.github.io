@@ -16,15 +16,15 @@ toc: true
 
 ## 1 ·Education {.pt-2}
 
-I will be graduating in 2026 with a B.S. in **Hydrologic Science and Policy** where I hope the future research that I conduct will be used to implement progressive water-based policies that improve the lives of people and the health of our environment. My interests include remote sensing, agricultural land use, and water policy.
+Before UCSB, I graduated from Palos Verdes High School in 2022. I will be graduating in 2026 with a B.S. in **Hydrologic Science and Policy** where I hope the future research that I conduct will be used to implement progressive water-based policies that improve the lives of people and the health of our environment. 
 
 ------------------------------------------------------------------------
 
 ## 2 · Current Research Focus {.pt-2}
 
-> *As climate change continues to diminish the quality of natural land cover, understanding how elephant movement patterns evolve is crucial to implementing policy solutions that enhance ecological conservation and prevent human-wildlife conflict.*
+> *Analyzing Shifts in Habitat Connectivity for African Elephants (Loxodonta africana) under Future Climate and Land Cover Change in the Kavango–Zambezi Transfrontier Conservation Area*
 
-Using **Sentinel-2 imagery, CHIRPS rainfall data, and Google Earth Engine**, I model ephemeral surface-water dynamics to predict future elephant movement under SSP climate scenarios.
+Using **Sentinel-2 imagery, R Studio, and Google Earth Engine**, I model ephemeral surface-water dynamics to predict future elephant movement under varying climate scenarios. This research falls under the *Spatial planning for climate change: Land use for conservation, agriculture, and energy (SPARCLE)* program in the Environmental Markets Lab (emLab) at UCSB.
 Key skills & tools:
 
 -   Remote sensing (GEE, `terra`, `raster`)\
@@ -37,9 +37,9 @@ Key skills & tools:
 
 ## 3 · Beyond Academics {.pt-2}
 
--   **DEI Coordinator, UCSB Hydrology Club** — developing outreach events that bring first-generation and historically excluded students into water-related careers.
+-   **DEI Coordinator, UCSB Hydrology Club** — developing outreach events that bring historically excluded students into water-related careers.
 - **Lifeguard** - my interest in hydrologic systems doesn't stop at science and policy; I've been lifeguarding since I was 15!
--   **Recipe development** — I've been writing a cookbook with all my favorite protein-rich, plant-forward recipes I've been perfecting over the years
+-   **Recipe developmer** — I've been writing a cookbook with all my favorite protein-rich, plant-forward recipes I've been perfecting over the years
 -   **Athletics** — After a decade of playing water polo, I've dabbled in power lifting, jumping higher, surfing, basketball, spikeball, and everything in between. I'm motivated to break the myth that one needs meat to be strong.
 
 ------------------------------------------------------------------------

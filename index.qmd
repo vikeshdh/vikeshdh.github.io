@@ -30,18 +30,28 @@ Welcome, I’m Vikesh!
 ```
 
 <div>
-
 <p class="lead mb-4">
-
-I'm a third-year B.S. <strong>Hydrologic Science & Policy</strong> at UC Santa Barbara. <br>
+I'm a third-year B.S. <strong>Hydrologic Science & Policy</strong> student at UC Santa Barbara. My interests include remote sensing, agricultural land use, water policy, coffee, sports, and cooking.<br>
 
 </p>
 
+
+<div class="mt-3" style="font-size:0.9em;">
+  <a href="vikesh@ucsb.edu" class="me-3" style="color:#0C2B1A; text-decoration:none;" title="Email Me">
+    <i class="bi bi-envelope-fill" style="vertical-align:-2px; margin-right:0.28em;"></i>
+    Email Me
+  </a>
+  <a href="https://www.linkedin.com/in/vikesh-dheeriya-60b471260/" target="_blank" class="me-3" style="color:#0C2B1A; text-decoration:none;" title="LinkedIn">
+    <i class="bi bi-linkedin" style="vertical-align:-2px; margin-right:0.28em;"></i>
+    LinkedIn
+  </a>
+  <a href="https://github.com/vikeshdh" target="_blank" style="color:#0C2B1A; text-decoration:none;" title="GitHub">
+    <i class="bi bi-github" style="vertical-align:-2px; margin-right:0.28em;"></i>
+    GitHub
+  </a>
 </div>
-::::
 
 <!-- /flex -->
-:::::
 
 <!-- /glass-card -->
 
