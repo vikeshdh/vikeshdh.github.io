@@ -2,21 +2,18 @@
    WEB FONTS
 ===================================================== */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
 /* =====================================================
    DESIGN TOKENS
 ===================================================== */
 :root{
-  --cream-bg:     #F7F5ED;      /* site background                  */
-  --cream-text:   #42423A;      /* warm black for body copy         */
-
-  --green-main:   #0C2B1A;      /* deeper evergreen (navbar)        */
-  --green-hover:  #145A32;      /* hover accent                     */
-  --green-rgb:    12,43,26;     /* rgb for subtle tints             */
-
+  --cream-bg:     #FAF3E7;
+  --cream-text:   #42423A;
+  --green-main:   #24543a;
+  --green-hover:  #399962;
+  --green-rgb:    57,153,98;
   --glass-bg:     rgba(255,255,255,.60);
-  --outline-dark: #07170F;      /* stroke for brand headline        */
+  --outline-dark: #07170F;
 }
 
 /* =====================================================
@@ -24,7 +21,7 @@
 ===================================================== */
 html,body{
   background: var(--cream-bg);
-  color:       var(--cream-text);
+  color: var(--cream-text);
   font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   line-height: 1.6;
 }
@@ -36,25 +33,76 @@ a:focus{ color: var(--green-hover); }
 /* =====================================================
    NAVBAR (two-row, centred)
 ===================================================== */
-
-
-/* ---------- BRAND (row 1) */
-.navbar-brand{
-  width:100%;
-  text-align:center;
-  margin-bottom:.35rem;
-
-  font-family:'League Spartan', sans-serif;
-  font-size:2.1rem;
-  font-weight:700;
-  letter-spacing:4px;
-  text-transform:uppercase;
-
-  /* cream fill + dark outline */
-  color: var(--cream-bg);
-  -webkit-text-stroke: 1.4px var(--outline-dark);
+.navbar{
+  background: var(--green-main) !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 36px;
+  padding-top: .1rem !important;
+  padding-bottom: .1rem !important;
+}
+.navbar .container-fluid{
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 0;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.navbar-collapse{
+  flex-basis:100%;
+  justify-content:center;
+}
+.navbar-nav{
+  flex-direction:row;
+  gap: 0.5rem;
+}
+.navbar .nav-link{
+  color:#FFF !important;
+  transition:color .2s;
+  font-size: 0.95rem !important;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus{ color:var(--green-hover) !important; }
+/* Remove search */
+#quarto-search { display:none !important; }
+/* Remove anchor icons */
+#no-anchor-resources .anchorjs-link,
+#no-anchor-resources .bi-link-45deg {
+  display: none !important;
+}
+/* Burger centered on mobile */
+@media (max-width:991.98px){
+  .navbar-toggler{
+    order:-1;
+    margin-bottom:.5rem;
+    border-color:rgba(255,255,255,.4);
+    padding: 0.15rem 0.4rem;
+  }
+  .navbar-toggler-icon{
+    width: 1.3em;
+    height: 1.3em;
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' stroke='white'%3e%3cline x1='4' y1='7'  x2='26' y2='7'  stroke-width='3'/%3e%3cline x1='4' y1='15' x2='26' y2='15' stroke-width='3'/%3e%3cline x1='4' y1='23' x2='26' y2='23' stroke-width='3'/%3e%3c/svg%3e");
+  }
 }
 
+/* ---------- BRAND (row 1) */
+.navbar-brand {
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 2.0rem;
+  font-weight: 600;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: var(--cream-bg);
+  -webkit-text-stroke: 1.4px var(--outline-dark);
+  text-align:center;
+  width:100%;
+  margin-bottom: .1rem;
+  padding-top: .2rem;
+  padding-bottom: .1rem;
+}
 /* Firefox fallback (no text-stroke) */
 @supports (-moz-appearance:none){
   .navbar-brand{
@@ -63,40 +111,6 @@ a:focus{ color: var(--green-hover); }
        1px -1px 0 var(--outline-dark),
       -1px  1px 0 var(--outline-dark),
        1px  1px 0 var(--outline-dark);
-  }
-}
-
-/* ---------- LINK ROW (row 2) */
-.navbar-collapse{
-  flex-basis:100%;
-  justify-content:center;
-}
-
-.navbar-nav{
-  flex-direction:row;
-  gap:1.2rem;
-}
-
-.navbar .nav-link{
-  color:#FFF !important;
-  transition:color .2s;
-}
-.navbar .nav-link:hover,
-.navbar .nav-link:focus{ color:var(--green-hover) !important; }
-
-/* ---------- Burger centred on mobile */
-@media (max-width:991.98px){
-  .navbar-toggler{
-    order:-1;
-    margin-bottom:.5rem;
-    border-color:rgba(255,255,255,.4);
-  }
-  .navbar-toggler-icon{
-    background-image:url("data:image/svg+xml,\
-%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' stroke='white'%3e\
-%3cline x1='4' y1='7'  x2='26' y2='7'  stroke-width='3'/%3e\
-%3cline x1='4' y1='15' x2='26' y2='15' stroke-width='3'/%3e\
-%3cline x1='4' y1='23' x2='26' y2='23' stroke-width='3'/%3e%3c/svg%3e");
   }
 }
 
@@ -112,12 +126,10 @@ a:focus{ color: var(--green-hover); }
   text-align:center;
   position:relative;
   overflow:hidden;
-
   background:
     radial-gradient(ellipse at top, rgba(var(--green-rgb),.07) 0%, transparent 40%),
     var(--cream-bg);
 }
-
 /* drifting specks */
 .hero-fancy::before,
 .hero-fancy::after{
@@ -132,7 +144,6 @@ a:focus{ color: var(--green-hover); }
   opacity:.25; pointer-events:none;
 }
 .hero-fancy::after{ animation-direction:reverse; }
-
 @keyframes drift{
   from{ transform:translateY(0); }
   to  { transform:translateY(-1200px); }
@@ -150,25 +161,21 @@ a:focus{ color: var(--green-hover); }
   max-width:840px;
   width:100%;
 }
-
 @supports not (backdrop-filter:blur(1px)){
   .glass-card{ background:rgba(255,255,255,.85); }
 }
-
 .glass-img{
   width:180px;
   max-width:40vw;
   border-radius:1rem;
   box-shadow:0 6px 18px rgba(0,0,0,.15);
 }
-
 .glass-card h1{
   color: var(--green-main);
   font-weight:700;
   letter-spacing:.5px;
 }
 .glass-card p{ color:#333; }
-
 /* mobile stack */
 @media(max-width:991.98px){
   .glass-img{ margin-bottom:1.75rem; }
@@ -185,81 +192,11 @@ a:focus{ color: var(--green-hover); }
   --bs-btn-hover-color: var(--cream-bg);
   --bs-btn-hover-border-color: var(--green-main);
 }
-/* force all figure captions to be solid black */
-figcaption {
-  color: #000 !important;
-}
 
-/* if you’re using Quarto’s layout-ncol or columns, captions get .q-caption */
+/* =====================================================
+   FIGURE CAPTIONS
+===================================================== */
+figcaption,
 .q-caption {
   color: #000 !important;
-}
-/* =====================================================
-   NAVBAR (two-row, centred)
-===================================================== */
-.navbar{
-  background: var(--green-main) !important;
-  box-shadow: 0 2px 6px rgba(0,0,0,.15);
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.navbar .container-fluid{
-  flex-direction: column;
-  align-items: center;
-  padding-inline: 0;
-}
-
-/* ---------- BRAND (row 1) */
-.navbar-brand{
-  width:100%;
-  text-align:center;
-  margin-bottom:.35rem;
-
-  font-family:'League Spartan', sans-serif;
-  font-size:2.1rem;
-  font-weight:700;
-  letter-spacing:4px;
-  text-transform:uppercase;
-
-  /* cream fill + dark outline */
-  color: var(--cream-bg);
-  -webkit-text-stroke: 1.4px var(--outline-dark);
-}
-
-/* Firefox fallback (no text-stroke) */
-@supports (-moz-appearance:none){
-  .navbar-brand{
-    text-shadow:
-      -1px -1px 0 var(--outline-dark),
-       1px -1px 0 var(--outline-dark),
-      -1px  1px 0 var(--outline-dark),
-       1px  1px 0 var(--outline-dark);
-  }
-}
-
-/* ---------- LINK ROW (row 2) */
-.navbar-collapse{
-  flex-basis:100%;
-  justify-content:center;
-}
-
-.navbar-nav{
-  flex-direction:row;
-  gap:1.2rem;
-}
-
-/* Remove search and any previous search tweaks */
-#quarto-search { display:none !important; }
-
-.navbar .nav-link{
-  color:#FFF !important;
-  transition:color .2s;
-}
-.navbar .nav-link:hover,
-.navbar .nav-link:focus{ color:var(--green-hover) !important; }
-
-#no-anchor-resources .anchorjs-link,
-#no-anchor-resources .bi-link-45deg {
-  display: none !important;
 }
