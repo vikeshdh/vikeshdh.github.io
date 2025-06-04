@@ -259,3 +259,7 @@ figcaption {
 .navbar .nav-link:hover,
 .navbar .nav-link:focus{ color:var(--green-hover) !important; }
 
+#no-anchor-resources .anchorjs-link,
+#no-anchor-resources .bi-link-45deg {
+  display: none !important;
+}
