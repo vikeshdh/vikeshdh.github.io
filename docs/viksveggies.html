@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – vikeshdh.github.io</title>
+<title>viksveggies – Vikesh Dheeriya</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -105,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -113,7 +79,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">vikeshdh.github.io</span>
+    <span class="navbar-title">Vikesh Dheeriya</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -124,11 +90,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">about me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Vikesh_Dheeriya_Resume.pdf"> 
+<span class="menu-text">resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./viksveggies.html" aria-current="page"> 
+<span class="menu-text">viks veggies</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -141,40 +119,169 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
+
+
+
+<style>
+.food-gallery-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 1.2rem;
+max-width: 1150px;
+margin: 0 auto 2.5rem auto;
+justify-items: center;
+}
+.food-photo-tile {
+position: relative;
+width: 100%;
+max-width: 340px;
+aspect-ratio: 1/1;
+overflow: hidden;
+border-radius: 1.3rem;
+box-shadow: 0 2px 16px rgba(20,90,50,0.12);
+background: #fff;
+cursor: pointer;
+transition: box-shadow .18s;
+margin: 0;
+}
+.food-photo-tile:hover {
+box-shadow: 0 10px 36px rgba(20,90,50,0.19);
+z-index: 2;
+}
+.food-photo-tile img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform .23s;
+}
+.food-photo-tile:hover img {
+transform: scale(1.09) rotate(-1.5deg);
+}
+.food-photo-caption {
+position: absolute;
+bottom: 0; left: 0; right: 0;
+background: rgba(255,255,255,0.82);
+color: #0C2B1A;
+font-weight: 500;
+padding: .35em .7em .38em .7em;
+font-size: 0.86em;
+text-align: center;
+opacity: 0;
+transition: opacity .15s;
+border-radius: 0 0 1.3rem 1.3rem;
+}
+.food-photo-tile:hover .food-photo-caption {
+opacity: 1;
+}
+@media (max-width: 1200px) {
+.food-gallery-grid { grid-template-columns: repeat(2, 1fr);}
+}
+@media (max-width: 800px) {
+.food-gallery-grid { grid-template-columns: 1fr;}
+.food-photo-tile { max-width: 99vw; }
+}
+.center-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+</style>
+<div class="center-container">
+<h1 class="display-4 text-center mb-4" style="color:var(--green-main);">
+viks veggies
+</h1>
+<p class="lead text-center mb-5" style="max-width:540px; margin:0 auto;">
+See even more food and recipe ideas at <a href="https://instagram.com/viksveggies" target="_blank" class="btn btn-outline-primary btn-sm ms-2" style="font-size:1.07em;vertical-align:-2px;"><i class="bi bi-instagram"></i> Instagram</a>
+</p>
+<div class="food-gallery-grid">
+<div class="food-photo-tile">
+<img src="food2.jpg" alt="Tofu Tikka Masala">
+<div class="food-photo-caption">
+shoyu ramen, seitan chashu
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+</div>
+<div class="food-photo-tile">
+<img src="food3.jpg" alt="ratatouille">
+<div class="food-photo-caption">
+ratatouille
 </div>
 </div>
+<div class="food-photo-tile">
+<img src="food4.jpg" alt="Charred Corn Summer Salad">
+<div class="food-photo-caption">
+tofu steak, roasted red pepper sauce, saffron rice
+</div>
+</div>
+<div class="food-photo-tile">
+<img src="food5.jpg" alt="Eggplant Katsu Curry">
+<div class="food-photo-caption">
+greek-style seitan, crispy chickpeas, tzatzski tz
+</div>
+</div>
+<div class="food-photo-tile">
+<img src="food6.jpg" alt="Chickpea Shakshuka">
+<div class="food-photo-caption">
+birria noodles
+</div>
+</div>
+<div class="food-photo-tile">
+<img src="food7.jpg" alt="Mapo Tofu">
+<div class="food-photo-caption">
+yeasted apple pancakes
+</div>
+</div>
+<div class="food-photo-tile">
+<img src="food8.jpg" alt="Jackfruit Tacos">
+<div class="food-photo-caption">
+chana masala, mint chutney
+</div>
+</div>
+<div class="food-photo-tile">
+<img src="food9.jpg" alt="Kimchi Fried Rice">
+<div class="food-photo-caption">
+pesto pasta, king oyster mushrooms
+</div>
+</div>
+<div class="food-photo-tile">
+<img src="food10.jpg" alt="Vegan Sushi Platter">
+<div class="food-photo-caption">
+plant-based steak, butternut squash fusilli, roasted eggplant
+</div>
+</div>
+</div>
+</div>
+<h2 id="no-anchor-resources" class="display-5 text-center mb-4 anchored" style="color:var(--green-main);">
+resources I recommend
+</h2>
+<p class="text-center mb-4">
+curated links for anyone curious about plant-based living, from unique recipes to protein sources to water use to animal rights.
+</p>
+<div class="container" style="margin: 0 auto; text-align: center;">
+<ul class="list-group list-group-flush" style="max-width:600px; margin:0 auto;">
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-globe me-3" style="font-size:1.3em;color:#145A32;"></i> <a href="https://vegancheatsheet.org/" target="_blank" style="font-weight:600;"> Everything there is to know about veganism </a>
+</li>
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-journal-text me-3" style="font-size:1.3em;color:#145A32;"></i> <a href="https://www.sciencedirect.com/science/article/pii/S2666833522000612" target="_blank" style="font-weight:600;"> Research on health &amp; sustainability of plant-based alternatives</a>
+</li>
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-film me-3" style="font-size:1.3em;color:#145A32;"></i> <a href="https://www.dominionmovement.com/watch" target="_blank" style="font-weight:600;"> Dominion reveals a portion of what big agriculture hides from consumers</a>
+</li>
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-heart me-3" style="font-size:1.3em;color:#145A32;"></i> <a href="https://www.reddit.com/r/veganfitness/wiki/index/" target="_blank" style="font-weight:600;"> Plant-based fitness &amp; weightlifting community</a>
+</li>
+<li class="list-group-item d-flex align-items-center" style="background:transparent;">
+<i class="bi bi-basket me-3" style="font-size:1.3em;color:#145A32;"></i> <a href="https://seitansociety.com/" target="_blank" style="font-weight:600;"> Learn about seitan (most underrated protein source!) </a>
+</li>
 
 
+
+</ul></div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
