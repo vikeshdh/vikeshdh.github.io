@@ -1,43 +1,115 @@
 ---
-title: "about me"
-page-layout: article
-toc: true
+title: ""
+toc: false
+
+listing:
+  contents: aboutme
+  type: grid
+  grid-columns: 3
+  sort: "title asc"
+
+format:
+  html:
+    page-footer: |
+      <div class="footer-quote">
+        “Nature is always more subtle, more intricate, more elegant than what we are able to imagine.”
+        <span class="footer-author">— Carl Sagan, <em>The Demon-Haunted World</em> (1995)</span>
+      </div>
 ---
 
-::: {layout-ncol=3}
+<div class="about-layout">
+<div class="about-left">
+<img src="vikportrait.jpg" alt="Photo of Vikesh" class="about-photo">
+</div>
 
-![Like a Redwood, I enjoy branching out.](tree1.jpg){fig-cap="Like a Redwood, I enjoy branching out"}
+<div class="about-right">
+<h1 class="about-hello">Welcome!</h1>
+<hr class="about-divider">
+<p>Hi! I'm Vikesh, a fourth-year Hydrologic Science and Policy (B.S.) student at UC Santa Barbara. My professional interests span hydrologic modeling, water quality, climate change adaptation, remote sensing, machine learning, GIS, groundwater, and regulatory compliance. I hope my work will improve the lives of people and the health of our environment.</p>
+<div class="about-buttons">
+<a class="about-btn" href="https://www.linkedin.com/in/vikesh-dheeriya-60b471260/" target="_blank">LinkedIn</a>
+<a class="about-btn" href="https://github.com/vikeshdh" target="_blank">GitHub</a>
+<a class="about-btn" href="mailto:vikesh@ucsb.edu">Email</a>
+</div>
+</div>
+</div>
 
-![To me, there's always mushroom for improvement...](food1.jpg){fig-cap="There's always mushroom for improvement"}
+<style>
+.about-layout{display:flex;flex-wrap:wrap;gap:2.5rem;align-items:flex-start;margin:2rem 0 3rem 0;}
+.about-left{max-width:320px;text-align:center;}
+.about-photo{width:100%;border-radius:1.2rem;object-fit:cover;box-shadow:0 10px 28px rgba(0,0,0,0.18);}
+.about-name{margin:1rem 0 0 0;font-size:1.6rem;font-weight:700;}
+.about-right{flex:1;min-width:260px;}
+.about-hello{margin:0 0 .6rem 0;font-size:2.1rem;font-weight:700;}
+.about-divider{border:none;border-top:2px solid rgba(0,0,0,0.08);margin:.6rem 0 1rem 0;}
+.about-subheading{margin:.2rem 0 .4rem 0;font-size:1.4rem;font-weight:700;letter-spacing:.03em;}
+.about-right p{margin:0 0 .7rem 0;line-height:1.55;}
+.about-buttons{margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.6rem;}
+.about-btn{padding:.4rem .9rem;border-radius:.5rem;border:1px solid rgba(0,0,0,0.25);font-size:.92rem;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:.35rem;background:rgba(255,255,255,0.8);}
+.about-btn:hover{background:#ffffff;border-color:rgba(0,0,0,0.45);}
+@media(max-width:800px){.about-layout{flex-direction:column;align-items:center;text-align:left;}.about-right{width:100%;}.about-left{max-width:260px;}}
 
-![Addressing the elephant in the room!](vikpic.jpg){fig-cap="Addressing the elephant in the room"}
+/* LISTING GRID */
+#listing-aboutme .card,
+#listing-listing .card {
+border-radius: 1rem;
+border: 1px solid rgba(0,0,0,0.08);
+box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+transition: transform .15s ease, box-shadow .15s ease;
+}
 
-:::
+#listing-aboutme .card:hover,
+#listing-listing .card:hover {
+transform: translateY(-3px);
+box-shadow: 0 7px 22px rgba(0,0,0,0.12);
+}
 
-## 1 ·Education {.pt-2}
+/* thumbnails */
+#listing-aboutme .card-img-top img,
+#listing-listing .card-img-top img {
+height: 180px;
+width: 100%;
+object-fit: cover;
+border-radius: 0.7rem 0.7rem 0 0;
+}
 
-Before UCSB, I graduated from Palos Verdes High School in 2022. I will be graduating in 2026 with a B.S. in **Hydrologic Science and Policy** where I hope the future research that I conduct will be used to implement progressive water-based policies that improve the lives of people and the health of our environment. 
+/* card body */
+#listing-aboutme .card-body,
+#listing-listing .card-body {
+padding: 1rem 1.15rem;
+}
 
-------------------------------------------------------------------------
+/* typography */
+#listing-aboutme .listing-title,
+#listing-listing .listing-title {
+font-size: 1.05rem !important;
+font-weight: 600;
+margin-bottom: 0.35rem;
+}
 
-## 2 · Current Research Focus {.pt-2}
+#listing-aboutme .listing-description,
+#listing-listing .listing-description {
+font-size: 0.9rem;
+line-height: 1.45;
+color: #444;
+}
 
-> *Analyzing Shifts in Habitat Connectivity for African Elephants (Loxodonta africana) under Future Climate and Land Cover Change in the Kavango–Zambezi Transfrontier Conservation Area*
 
-Using **Sentinel-2 imagery, R Studio, and Google Earth Engine**, I model ephemeral surface-water dynamics to predict future elephant movement under varying climate scenarios. This research falls under the *Spatial planning for climate change: Land use for conservation, agriculture, and energy (SPARCLE)* program in the Environmental Markets Lab (emLab) at UCSB.
-Key skills & tools:
+</style>
+<style>
+/* existing styles ... */
 
--   Remote sensing (GEE, `terra`, `raster`)\
--   GIS analysis
--   reproducible R / Python workflows
-
-------------------------------------------------------------------------
-
-## 3 · Beyond Academics {.pt-2}
-
--   **DEI Coordinator, UCSB Hydrology Club** — developing outreach events that bring historically excluded students into water-related careers.
-- **Lifeguard** - my interest in hydrologic systems doesn't stop at science and policy; I've been lifeguarding since I was 15!
--   **Recipe developmer** — I've been writing a cookbook with all my favorite protein-rich, plant-forward recipes I've been perfecting over the years
--   **Athletics** — After a decade of playing water polo, I've dabbled in power lifting, jumping higher, surfing, basketball, spikeball, and everything in between. I'm motivated to break the myth that one needs meat to be strong.
-
-------------------------------------------------------------------------
+.footer-quote {
+  text-align: center;
+  margin: 3rem 0 1rem 0;
+  font-size: 1rem;
+  font-style: italic;
+  color: #444;
+}
+.footer-author {
+  display: block;
+  margin-top: .3rem;
+  font-size: .92rem;
+  color: #555;
+}
+</style>

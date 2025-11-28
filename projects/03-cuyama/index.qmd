@@ -1,0 +1,31 @@
+---
+title: "Cuyama Groundwater Crisis Infographic"
+description: "Infographic explaining groundwater overdraft, big carrot, and community impacts."
+author:
+  - name: "Vikesh Dheeriya"
+    affiliation: "UC Water Academy 2025"
+date: 2025-02
+image: carrotwar.png
+categories: [Groundwater, Environmental Justice, Data Visualization]
+title-block-banner: true
+toc: false
+weight: 3
+---
+
+::: text-center
+[📄 **View Graphic (PDF)**](carrot.pdf){.btn .btn-primary target="_blank"}
+:::
+
+<iframe src="carrot.pdf" width="100%" height="800px" style="border: none;">
+
+</iframe>
+
+I developed this infographic for the UC Water Academy (2025) and presented it to UC faculty and graduate students. The Cuyama Valley, in northern Santa Barbara County, offers a clear example of how groundwater depletion exposes the limits of current laws like SGMA and reflects governance issues seen in stressed aquifers globally.This project highlights:
+
+-   decades of severe groundwater overdraft
+
+-   exploitation from large agricultural corporations
+
+-   inequities experienced by small farmers and rural households
+
+This work served as a policy case study evaluating the effectiveness and limitations of the Sustainable Groundwater Management Act (SGMA) in regions with groundwater conflicts. I compiled historical groundwater level data, created depth-to-water hydrographs, and emphasized how effective visual communication can make complex groundwater issues accessible to decision makers and the public.

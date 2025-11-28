@@ -1,0 +1,31 @@
+---
+title: "Santa Ynez Watershed Report"
+image: watershed.png
+description: "Hydrologic modeling of the Santa Ynez River using HAWQS and ArcGIS under RCP 4.5 and 8.5 scenarios."
+author:
+  - name: "Vikesh Dheeriya"
+    affiliation: "Bren Graduate School of Environmental Science & Management"
+date: 2024-03
+categories: [Hydrology, GIS, Modeling, HAWQS]
+title-block-banner: true
+toc: false
+weight: 4
+---
+
+This watershed report was completed while auditing **ESM 224: Hydrologic Modeling**, a graduate level course at the UCSB Bren School of Environmental Science & Management. In this project, I used the Hydrologic and Water Quality System (HAWQS) to evaluate discharge in the Santa Ynez River watershed under different climate scenarios (RCP 4.5 and RCP 8.5). I paired the modeling with mapping of topography, soils, land use, and sub-basin boundaries using ArcGIS Pro to better understand spatial patterns in runoff responses.
+
+::: text-center
+[📄 **View Report (PDF)**](eir.pdf){.btn .btn-primary target="_blank"}
+:::
+
+<iframe src="SantaYnezWatershed.pdf" width="100%" height="800px" style="border: none;">
+
+</iframe>
+
+Key skills and tools:
+
+-   HAWQS hydrologic modeling
+-   ArcGIS Pro for watershed and sub-basin delineation
+-   Data processing and figure design for a written technical report
+
+------------------------------------------------------------------------

@@ -1,27 +1,25 @@
 project:
   type: website
-  output-dir: docs            # directory GitHub Pages will serve
+  output-dir: docs      # GitHub Pages will serve from /docs
+
 search: false
+
 website:
   title: "Vikesh Dheeriya"
   navbar:
     left:
-      - text: home
-        href: index.qmd
       - text: about me
         href: about.qmd
       - text: portfolio
-        href: projects.qmd
-      - text: resume
-        href: Vikesh_Dheeriya_Resume.pdf
+        href: projects.qmd  
       - text: viks veggies
         href: viksveggies.qmd
 
 format:
   html:
-    allow-html: true
     theme: flatly
-    css: styles.css       
-    toc: true
+    css: styles.css
+    allow-html: true    # needed for our custom HTML
+    toc: true           # default; can override in individual pages
 
 editor: visual

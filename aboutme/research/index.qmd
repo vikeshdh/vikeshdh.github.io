@@ -1,0 +1,19 @@
+---
+title: "research"
+image: vikphoto.jpg
+description: "my current focus"
+title-block-banner: true
+toc: true
+---
+
+## 2 · Current Research Focus {.pt-2}
+
+*Quantifying Aboveground Biomass of California's Grasslands using Multi-Sensor Fusion and Machine Learning*
+
+My current work integrates Sentinel-2 optical data, Sentinel-1 SAR, and ALOS PALSAR with machine learning algorithms like Random Forest and Multi-Layer Perceptron to build robust, scalable models of aboveground biomass in California’s grasslands. Funded by UCSB’s Earth Research Institute, this project advances remote sensing approaches that support carbon accounting and land management. 
+
+-   Remote sensing (GEE, `terra`, `raster`)\
+-   GIS analysis
+-   reproducible Python workflows
+
+------------------------------------------------------------------------
