@@ -6,7 +6,7 @@ search: false
 
 website:
   title: "Vikesh Dheeriya"
-  google-analytics: G-NG9FX3NQD3
+  google-analytics: "G-NG9FX3NQD3""
   navbar:
     left:
       - text: about me
