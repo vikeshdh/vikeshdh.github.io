@@ -7,14 +7,6 @@ listing:
   type: grid
   grid-columns: 3
   sort: "title asc"
-
-format:
-  html:
-    page-footer: |
-      <div class="footer-quote">
-        “Nature is always more subtle, more intricate, more elegant than what we are able to imagine.”
-        <span class="footer-author">— Carl Sagan, <em>The Demon-Haunted World</em> (1995)</span>
-      </div>
 ---
 
 <div class="about-layout">
