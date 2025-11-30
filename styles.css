@@ -7,10 +7,10 @@
    DESIGN TOKENS
 ===================================================== */
 :root{
-  --cream-bg:     #95d2f5;
-  --cream-text:   #42423A;
-  --green-main:   #144afc;
-  --green-hover:  #70C5FF;
+  --cream-bg:     #FDFBD4;
+  --cream-text:   #000000;
+  --green-main:   #6ECFFF;
+  --green-hover:  #BFEAFF;
   --green-rgb:    57,153,98;
   --glass-bg:     rgba(255,255,255,.60);
   --outline-dark: #07170F;
