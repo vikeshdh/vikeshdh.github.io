@@ -11,7 +11,7 @@ listing:
 
 <div class="about-layout">
 <div class="about-left">
-<img src="vikportrait.jpg" alt="Photo of Vikesh" class="about-photo">
+<img src="vikesh.png" alt="Photo of Vikesh" class="about-photo">
 </div>
 
 <div class="about-right">
