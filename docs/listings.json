@@ -11,9 +11,9 @@
   {
     "listing": "/about.html",
     "items": [
+      "/aboutme/research/index.html",
       "/aboutme/education/index.html",
-      "/aboutme/extracurriculars/index.html",
-      "/aboutme/research/index.html"
+      "/aboutme/extracurriculars/index.html"
     ]
   }
 ]

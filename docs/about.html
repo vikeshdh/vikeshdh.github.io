@@ -159,15 +159,15 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">about me</span></a>
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">portfolio</span></a>
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./viksveggies.html"> 
-<span class="menu-text">viks veggies</span></a>
+<span class="menu-text">Cooking</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -223,7 +223,7 @@ Hi! I’m Vikesh, a fourth-year Hydrologic Science and Policy (B.S.) student at 
 #listing-aboutme .card,
 #listing-listing .card {
 border-radius: 1rem;
-border: 1px solid rgba(0,0,0,0.08);
+border: 2px solid rgba(0,0,0,0.08);
 box-shadow: 0 3px 10px rgba(0,0,0,0.06);
 transition: transform .15s ease, box-shadow .15s ease;
 }
@@ -237,7 +237,7 @@ box-shadow: 0 7px 22px rgba(0,0,0,0.12);
 /* thumbnails */
 #listing-aboutme .card-img-top img,
 #listing-listing .card-img-top img {
-height: 180px;
+height: 450px;
 width: 100%;
 object-fit: cover;
 border-radius: 0.7rem 0.7rem 0 0;
@@ -252,9 +252,9 @@ padding: 1rem 1.15rem;
 /* typography */
 #listing-aboutme .listing-title,
 #listing-listing .listing-title {
-font-size: 1.05rem !important;
+font-size: 1.2rem !important;
 font-weight: 600;
-margin-bottom: 0.35rem;
+margin-bottom: 0.15rem;
 }
 
 #listing-aboutme .listing-description,
@@ -282,57 +282,21 @@ color: #444;
   font-size: .92rem;
   color: #555;
 }
+/* Hide listing descriptions completely */
+.quarto-listing .listing-description {
+  display: none !important;
+}
+.quarto-listing .card-body {
+  padding-bottom: 0.6rem !important;
+}
+
 </style>
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1764354156585" data-listing-reading-time-sort="5" data-listing-word-count-sort="814">
-<a href="./aboutme/education/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./aboutme/education/vikresearch.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-education
-</h5>
-<div class="card-text listing-description">
-cool classes I took
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1764286482852" data-listing-reading-time-sort="3" data-listing-word-count-sort="483">
-<a href="./aboutme/extracurriculars/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./aboutme/extracurriculars/field.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-extracurriculars
-</h5>
-<div class="card-text listing-description">
-beyond academics
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1764286565550" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1764470718992" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
 <a href="./aboutme/research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -340,10 +304,54 @@ beyond academics
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-research
+Current Research Focus
 </h5>
 <div class="card-text listing-description">
-my current focus
+<em>Quantifying Aboveground Biomass of California’s Grasslands using Multi-Sensor Fusion and Machine Learning</em>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1764470917122" data-listing-reading-time-sort="5" data-listing-word-count-sort="814">
+<a href="./aboutme/education/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./aboutme/education/vikresearch.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Education
+</h5>
+<div class="card-text listing-description">
+I will be graduating in 2026 with a B.S. in <strong>Hydrologic Science and Policy</strong> as an Honors student. I also spent two years as a Bren-Environmental Studies Fellow where I gained…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1764469914057" data-listing-reading-time-sort="3" data-listing-word-count-sort="483">
+<a href="./aboutme/extracurriculars/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./aboutme/extracurriculars/field.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Extracurriculars
+</h5>
+<div class="card-text listing-description">
+The UCSB Hydrology Club, founded in 2023, works to engage students with local water issues, introduce career pathways in hydrology and water resources, connect students with…
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
