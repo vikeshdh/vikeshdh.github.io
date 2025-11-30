@@ -1,8 +1,8 @@
 ---
-title: "extracurriculars"
+title: "Extracurriculars"
 image: field.jpg
+description: ""
 title-block-banner: true
-description: "beyond academics"
 toc: true
 ---
 ## Hydrology Club

@@ -45,7 +45,7 @@ listing:
 #listing-aboutme .card,
 #listing-listing .card {
 border-radius: 1rem;
-border: 1px solid rgba(0,0,0,0.08);
+border: 2px solid rgba(0,0,0,0.08);
 box-shadow: 0 3px 10px rgba(0,0,0,0.06);
 transition: transform .15s ease, box-shadow .15s ease;
 }
@@ -59,7 +59,7 @@ box-shadow: 0 7px 22px rgba(0,0,0,0.12);
 /* thumbnails */
 #listing-aboutme .card-img-top img,
 #listing-listing .card-img-top img {
-height: 180px;
+height: 450px;
 width: 100%;
 object-fit: cover;
 border-radius: 0.7rem 0.7rem 0 0;
@@ -74,9 +74,9 @@ padding: 1rem 1.15rem;
 /* typography */
 #listing-aboutme .listing-title,
 #listing-listing .listing-title {
-font-size: 1.05rem !important;
+font-size: 1.2rem !important;
 font-weight: 600;
-margin-bottom: 0.35rem;
+margin-bottom: 0.15rem;
 }
 
 #listing-aboutme .listing-description,
@@ -104,4 +104,12 @@ color: #444;
   font-size: .92rem;
   color: #555;
 }
+/* Hide listing descriptions completely */
+.quarto-listing .listing-description {
+  display: none !important;
+}
+.quarto-listing .card-body {
+  padding-bottom: 0.6rem !important;
+}
+
 </style>

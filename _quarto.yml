@@ -9,11 +9,11 @@ website:
   google-analytics: "G-NG9FX3NQD3"
   navbar:
     left:
-      - text: about me
+      - text: About Me
         href: about.qmd
-      - text: portfolio
+      - text: Portfolio
         href: projects.qmd  
-      - text: viks veggies
+      - text: Viks Veggies
         href: viksveggies.qmd
 
 format:
