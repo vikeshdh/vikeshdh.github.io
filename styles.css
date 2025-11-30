@@ -22,7 +22,7 @@
   --nav-bg:         #6BAEFA;   /* desaturated blue bar */
   --nav-text:       #ffffff;
   --nav-text-muted: rgba(255,255,255,.85);
-  --nav-active:     #a6e4b7;   /* mint green "Home" */
+  --nav-active:     #174f82;   /* mint green "Home" */
   --nav-hover:      rgba(255,255,255,.95);
 
   /* Accent / buttons */
@@ -78,7 +78,7 @@ a:focus{
 .navbar-brand{
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.3rem;
   margin: 0;
   padding: 0;
 
@@ -102,13 +102,17 @@ a:focus{
 /* Nav links */
 .navbar-collapse{
   flex-grow: 0;
+  margin-left: auto;          /* 👈 pushes the whole links block to the right */
+  display: flex;
+  align-items: center;
 }
+
 
 .navbar-nav{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.4rem;
+  gap: 0.75rem;
   margin-left: auto;   /* 👈 pushes the tabs farther right */
 }
 
@@ -143,9 +147,7 @@ a:focus{
 }
 
 /* Hide Quarto built-in search if you don't want it */
-#quarto-search{
-  display:none !important;
-}
+
 
 /* Burger / mobile nav */
 .navbar-toggler{

@@ -13,7 +13,7 @@ website:
         href: about.qmd
       - text: Portfolio
         href: projects.qmd  
-      - text: Viks Veggies
+      - text: Cooking
         href: viksveggies.qmd
 
 format:
