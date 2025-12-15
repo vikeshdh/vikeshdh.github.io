@@ -49,16 +49,15 @@ Here are some of my favorite classes I've taken throughout my time in undergrad 
 
     -   I took this course to gain a foundational background in analytical reasoning and formal logic. Coursework included argument structure, symbolic representation, validity, and proof techniques. Breaking down arguments into core building blocks helped strengthen my technical writing.
     
-    
-9.  **Fluvial Geomorphology**
-
-    -   Technical topics covered sediment deposition, stream order classification, water infrastructure including dams, levees, and embankments. Labs included hydrologic flow modeling, QGIS watershed delineation, and a cartography workshop. My favorite aspect of this class was the field work in Mission Creek, where we conducted pebble counts, classified stream orders, and analyzed the urban channelization and its role in flood control.
-    
-    
-    
-10.  **Water Supply and Demand**
+9.  **Water Supply and Demand**
 
     -   This class strengthened my fundamental understanding of the management of water resources, covering surface water processes, groundwater flow, and water use in energy and agriculture. I used Excel to build rating curves and hydrographs from USGS stream gauge data.
+    
+10. **Fluvial Geomorphology**
+
+    -  Technical topics covered sediment deposition, stream order classification, water infrastructure including dams, levees, and embankments. Labs included hydrologic flow modeling, QGIS watershed delineation, and a cartography workshop. My favorite aspect of this class was the field work in Mission Creek, where we conducted pebble counts, classified stream orders, and analyzed the urban channelization and its role in flood control.
+    
+    
     
     
 

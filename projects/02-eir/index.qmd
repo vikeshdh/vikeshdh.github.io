@@ -31,7 +31,7 @@ My role focused on:
 
 This project strengthened my technical grounding in stormwater while providing hands on experience applying CEQA methodology to real world environmental compliance scenarios.
 
-# Project Analysis Under CEQA
+# Water Resource Analysis Under CEQA
 
 ## Hydrologic Setting
 
