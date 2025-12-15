@@ -9,8 +9,8 @@ description: "Hydrology & Water Resources section of an EIR under CEQA formattin
 categories: [
   "CEQA",
   "WATER RESOURCES",
-  "LAND-USE",
-  "WATER QUALITY",
+  "LAND USE",
+  "STORMWATER",
   "HYDROLOGY"
 ]
 title-block-banner: true
@@ -20,33 +20,36 @@ weight: 2
 
 # Overview
 
-This project is a full Environmental Impact Report (EIR)\*\* prepared over a 20-week course in Advanced Environmental Impact Analysis at UCSB. The assignment required a full CEQA-style assessment of hydrologic, groundwater, runoff, and water-quality impacts associated with a hypothetical faculty housing and classroom development adjacent to campus.
+This project is a full Environmental Impact Report (EIR) prepared over a 20-week course in Advanced Environmental Impact Analysis at UCSB. The assignment required a full CEQA-style assessment of hydrologic impacts associated with a hypothetical faculty housing and classroom development adjacent to campus.
 
 My role focused on:
 
 -   conducting site visits to characterize existing watershed conditions;\
--   reviewing stormwater, soils, and water-quality data for the project area;\
+-   reviewing stormwater infrastructure and water quality data for the project area;\
 -   evaluating short and long-term project impacts in the context of CEQA significance thresholds;\
 -   developing mitigation measures and environmentally superior alternatives.
 
-This project strengthened my technical grounding in watershed hydrology while providing hands on experience applying CEQA methodology to real world environmental compliance scenarios.
+This project strengthened my technical grounding in stormwater while providing hands on experience applying CEQA methodology to real world environmental compliance scenarios.
 
-# Key Hydrology & Water-Quality Analyses
+# Project Analysis Under CEQA
 
 ## Hydrologic Setting
 
 -   Watershed boundaries, slopes, and drainage pathways\
--   Precipitation regime and seasonal runoff patterns
+-   Precipitation patterns and seasonal runoff
 
 ## Impact Evaluation Under CEQA
 
 I conducted formal CEQA hydrology and water quality assessments examining:
 
--   Runoff generation & peak flow changes from impervious surface expansion\
--   Flood risk & stormwater pollution\
--   Groundwater recharge
+-   Runoff generation & peak flow changes from increases in impervious surfaces\
+
+-   Flood risk & stormwater pollution
+
 -   Alterations to local stream hydrology during storm events\
+
 -   Pollutant loading & water quality degradation (metals, nutrients, sediments)\
+
 -   Compliance with SWMPP, NPDES, and SWRCB regulations
 
 ## Mitigation & Alternatives

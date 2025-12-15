@@ -116,35 +116,5 @@ See even more food and recipe ideas at
 </div>
 </div>
 
-<h2 id="no-anchor-resources" class="display-5 text-center mb-4" style="color:var(--green-main);">
-resources I recommend
-</h2>
-<p class="text-center mb-4">curated links for anyone curious about plant-based living, from unique recipes to protein sources to water use to animal rights.</p>
-<div class="container" style="margin: 0 auto; text-align: center;">
-<ul class="list-group list-group-flush" style="max-width:600px; margin:0 auto;">
-<li class="list-group-item d-flex align-items-center" style="background:transparent;">
-<i class="bi bi-globe me-3" style="font-size:1.3em;color:#145A32;"></i>
-<a href="https://vegancheatsheet.org/" target="_blank" style="font-weight:600;">
-Everything there is to know about veganism
-</a>
-</li>
-<li class="list-group-item d-flex align-items-center" style="background:transparent;">
-<i class="bi bi-journal-text me-3" style="font-size:1.3em;color:#145A32;"></i>
-<a href="https://www.sciencedirect.com/science/article/pii/S2666833522000612" target="_blank" style="font-weight:600;">
-Research on health & sustainability of plant-based alternatives</a>
-</li>
-<li class="list-group-item d-flex align-items-center" style="background:transparent;">
-<i class="bi bi-film me-3" style="font-size:1.3em;color:#145A32;"></i>
-<a href="https://www.dominionmovement.com/watch" target="_blank" style="font-weight:600;"> Dominion reveals a portion of what big agriculture hides from consumers</a>
-</li>
-<li class="list-group-item d-flex align-items-center" style="background:transparent;">
-<i class="bi bi-heart me-3" style="font-size:1.3em;color:#145A32;"></i>
-<a href="https://www.reddit.com/r/veganfitness/wiki/index/" target="_blank" style="font-weight:600;">
-Plant-based fitness & weightlifting community</a>
-</li>
-<li class="list-group-item d-flex align-items-center" style="background:transparent;">
-<i class="bi bi-basket me-3" style="font-size:1.3em;color:#145A32;"></i>
-<a href="https://seitansociety.com/" target="_blank" style="font-weight:600;"> Learn about seitan (most underrated protein source!) </a>
-</li>
-</section>
+
 
