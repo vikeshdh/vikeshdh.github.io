@@ -10,35 +10,34 @@ toc: true
 
 I will be graduating in 2026 with a B.S. in **Hydrologic Science and Policy** as an Honors student. For two years, I was a recipient of the Bren-Environmental Studies Fellowship where I gained mentorship from Bren graduate students and faculty, learned about career paths in the environmental field, and organized an annual lunch to expose incoming sophomores to the Hydrology major by bringing in guest lecturers to speak about local water issues and projects.
 
-## 2. My Top 10 Classes
+## 2. Relevant Coursework
 
-Here are some of my favorite classes I've taken throughout my time in undergrad in no particular order.
+Here are some of my favorite classes I've taken in no particular order.
 
 1.  **Advanced Environmental Impact Analysis**
 
-    -   This course introduced the major components of regulatory compliance under CEQA, using an internship style approach to environmental review. Over the quarter, I developed a full Environmental Impact Report for a hypothetical mixed-use faculty housing project on Campus Point. My work included preparing the Water Resources/Hydrology section, writing the project description, outlining the environmental setting, assessing potential impacts, proposing mitigation measures, evaluating off-site alternatives, and drafting a Project Application Response Letter. 
+    -   This course introduced the major components of regulatory compliance under CEQA, using an internship style approach to environmental review. Over the quarter, I independently developed a full Environmental Impact Report for a hypothetical mixed-use faculty housing project on Campus Point. My work included preparing the Water Resources/Hydrology section, writing the project description, outlining the environmental setting, assessing potential impacts, proposing mitigation measures, evaluating off-site alternatives, and drafting a Project Application Response Letter. 
     
 2. **UC Water Academy 2025**
 
-    -   This optional remote course brought professors and professionals in the water field to give lectures on their work, spanning topics like water rights in California, Colorado River allocation, the State Water Project, water use in agriculture, flood managed aquifer recharge. At the end, I presented a two-page infographic to the class about the big players in groundwater overdraft of my local aquifer, the role of SGMA, and next steps for the average person. 
+    -   This remote course with the University of California brought professors and professionals in the water field to give lectures on their work, spanning topics like water rights in California, Colorado River allocation, the State Water Project, water use in agriculture, and flood managed aquifer recharge. At the end, I presented a two-page infographic to the class about groundwater overdraft of a local aquifer, the role of SGMA, and next steps for the general public. 
     
 3.  **Advanced Groundwater Analysis**
 
-    -   In this class, I learned first principles of subsurface flow. I was introduced to groundwater modeling, remediation, and applied groundwater management in California. Additionally, we analyzed publicly available depth-to-groundwater well data, created contour maps, and delineated watersheds using QGIS.
+    -   I learned the basics of groundwater flow. I was introduced to groundwater modeling, remediation, and applied management in California. Additionally, we analyzed publicly available depth-to-groundwater well data, created contour maps, and delineated watersheds using QGIS.
     
     
 4.  **Freshwater Ecology: Sensors to Satellites**
 
-    -   In this course, I built a custom water-quality sensor using the Arduino IDE to measure pH and temperature in the Devereux Slough. I learned to program Arduino microcontrollers, solder and assemble hardware, deploy sensors in the field, and wrangle water quality data. The class also introduced workflows for cleaning sensor data and integrating remote sensing observations into a final report. See picture below of my group deploying our sensor!
+    -   I built a custom water quality sensor using the Arduino IDE to measure pH and temperature in the Devereux Slough, a nearby coastal estuary. I learned to program Arduino microcontrollers, solder and assemble hardware, deploy sensors in the field, and wrangle water quality data. The class also introduced workflows for cleaning sensor data and integrating remote sensing observations into a final report. See picture below of my group deploying our sensor!
     
 5.  **GIS For Environmental Applications**
 
-    -  In learning GIS, I gained skills in spatial analysis, cartography, projections, vector and raster data, ArcPy, geoprocessing tools, and map design. I used ArcGIS Pro to build maps, analyze spatial patterns, and solve environmental problems.
+    -  In learning GIS, I gained skills in spatial analysis, cartography, projections, vector and raster data, ArcPy, geoprocessing tools, and map design. Specifically, we used GIS to analyze deforestation from palm oil plantations in Indonesia. I used ArcGIS Pro to build maps, analyze spatial patterns, and solve environmental problems.
         
-6.  **Soils Science**
+6.  **Soils Science: Genesis, Morphology, and Management**
 
-    -   I studied the physical and chemical properties of soils, with coursework covering soil physics, chemistry, hydrology, classification and identification, soil biology, formation and weathering processes. I enjoyed learning how agricultural practices influence soil health.
-    
+    -   I studied the physical and chemical properties of soils, with coursework covering soil physics, chemistry, hydrology, classification and identification, soil biology, formation and weathering processes. During weekly site visits, I learned to classify soils and make predictions on how they formed based on their physical and chemical characterisitcs.
     
 7.  **Water Quality**
 
