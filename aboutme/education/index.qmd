@@ -14,66 +14,69 @@ I will be graduating in 2026 with a B.S. in **Hydrologic Science and Policy** as
 
 Here are some of my favorite classes I've taken in no particular order.
 
-1.  **Advanced Environmental Impact Analysis**
+-   **Advanced Environmental Impact Analysis**
 
-    -   This course introduced the major components of regulatory compliance under CEQA, using an internship style approach to environmental review. Over the quarter, I independently developed a full Environmental Impact Report for a hypothetical mixed-use faculty housing project on Campus Point. My work included preparing the Water Resources/Hydrology section, writing the project description, outlining the environmental setting, assessing potential impacts, proposing mitigation measures, evaluating off-site alternatives, and drafting a Project Application Response Letter. 
-    
-2. **UC Water Academy 2025**
+    -   This course introduced the major components of regulatory compliance under CEQA, using an internship style approach to environmental review. Over the quarter, I independently developed a full Environmental Impact Report for a hypothetical mixed-use faculty housing project on Campus Point. My work included preparing the Water Resources/Hydrology section, writing the project description, outlining the environmental setting, assessing potential impacts, proposing mitigation measures, evaluating off-site alternatives, and drafting a Project Application Response Letter.
 
-    -   This remote course with the University of California brought professors and professionals in the water field to give lectures on their work, spanning topics like water rights in California, Colorado River allocation, the State Water Project, water use in agriculture, and flood managed aquifer recharge. At the end, I presented a two-page infographic to the class about groundwater overdraft of a local aquifer, the role of SGMA, and next steps for the general public. 
-    
-3.  **Advanced Groundwater Analysis**
+-   **UC Water Academy 2025**
+
+    -   This remote course with the University of California brought professors and professionals in the water field to give lectures on their work, spanning topics like water rights in California, Colorado River allocation, the State Water Project, water use in agriculture, and flood managed aquifer recharge. At the end, I presented a two-page infographic to the class about groundwater overdraft of a local aquifer, the role of SGMA, and next steps for the general public.
+
+-   **Advanced Groundwater Analysis**
 
     -   I learned the basics of groundwater flow. I was introduced to groundwater modeling, remediation, and applied management in California. Additionally, we analyzed publicly available depth-to-groundwater well data, created contour maps, and delineated watersheds using QGIS.
-    
-    
-4.  **Freshwater Ecology: Sensors to Satellites**
+
+-   **Freshwater Ecology: Sensors to Satellites**
 
     -   I built a custom water quality sensor using the Arduino IDE to measure pH and temperature in the Devereux Slough, a nearby coastal estuary. I learned to program Arduino microcontrollers, solder and assemble hardware, deploy sensors in the field, and wrangle water quality data. The class also introduced workflows for cleaning sensor data and integrating remote sensing observations into a final report. See picture below of my group deploying our sensor!
-    
-5.  **GIS For Environmental Applications**
 
-    -  In learning GIS, I gained skills in spatial analysis, cartography, projections, vector and raster data, ArcPy, geoprocessing tools, and map design. Specifically, we used GIS to analyze deforestation from palm oil plantations in Indonesia. I used ArcGIS Pro to build maps, analyze spatial patterns, and solve environmental problems.
-        
-6.  **Soils Science: Genesis, Morphology, and Management**
+-   **GIS For Environmental Applications**
 
-    -   I studied the physical and chemical properties of soils, with coursework covering soil physics, chemistry, hydrology, classification and identification, soil biology, formation and weathering processes. During weekly site visits, I learned to classify soils and make predictions on how they formed based on their physical and chemical characterisitcs.
-    
-7.  **Water Quality**
+    -   In learning GIS, I gained skills in spatial analysis, cartography, projections, vector and raster data, ArcPy, geoprocessing tools, and map design. Specifically, we used GIS to analyze deforestation from palm oil plantations in Indonesia. I used ArcGIS Pro to build maps, analyze spatial patterns, and solve environmental problems.
+
+-   **Soils Science: Genesis, Morphology, and Management**
+
+    -   I studied the physical and chemical properties of soils, with coursework covering soil physics, chemistry, hydrology, classification and identification, soil biology, formation and weathering processes. During weekly site visits, I learned to classify soils and make predictions on how they formed based on their physical and chemical characterisitics.
+
+-   **Water Quality**
 
     -   This course introduced the chemical, physical, and biological processes that oversee water quality in natural and urban systems. We analyzed contaminants, federal water quality standards, treatment technologies, remediation techniques, and regulatory frameworks such as the Clean Water Act and Safe Drinking Water Act.
-    
-    
-8.  **Modern Logic**
 
-    -   I took this course to gain a foundational background in analytical reasoning and formal logic. Coursework included argument structure, symbolic representation, validity, and proof techniques. Breaking down arguments into core building blocks helped strengthen my technical writing.
-    
-9.  **Water Supply and Demand**
+-   **Environmental Law**
+
+    -   In this course, I examined federal law, torts, and administrative processes with an emphasis on agency authority, judicial review, and implementation of water quality regulations. I analyzed the Clean Water Act, including water quality standards, wetland delineation policy, and stormwater permitting. Understanding how landmark environmental cases shape water resource planning and regulatory outcome supplemented my technical knowledge of hydrology.
+
+-   **Water Supply and Demand**
 
     -   This class strengthened my fundamental understanding of the management of water resources, covering surface water processes, groundwater flow, and water use in energy and agriculture. I used Excel to build rating curves and hydrographs from USGS stream gauge data.
-    
-10. **Fluvial Geomorphology**
 
-    -  Technical topics covered sediment deposition, stream order classification, water infrastructure including dams, levees, and embankments. Labs included hydrologic flow modeling, QGIS watershed delineation, and a cartography workshop. My favorite aspect of this class was the field work in Mission Creek, where we conducted pebble counts, classified stream orders, and analyzed the urban channelization and its role in flood control.
-    
-    
-    
-    
+-   **Fluvial Geomorphology**
 
-<div class="photo-grid">
+    -   Technical topics covered sediment deposition, stream order classification, water infrastructure including dams, levees, and embankments. Labs included hydrologic flow modeling, QGIS watershed delineation, and a cartography workshop. My favorite aspect of this class was the field work in Mission Creek, where we conducted pebble counts, classified stream orders, and analyzed the urban channelization and its role in flood control.
 
-<div class="photo-item">
-<img src="river.jpg" alt="Sediment survey in Mission Creek">
-<p class="caption">Classifying sediment size distributions in Mission Creek for <em>ES 144: Fluvial Geomorphology</em>.</p>
-</div>
+::::: photo-grid
+::: photo-item
+<img src="river.jpg" alt="Sediment survey in Mission Creek"/>
 
-<div class="photo-item">
-<img src="team.jpg" alt="Deploying custom water quality sensor">
-<p class="caption">Deploying our homemade water quality sensor to measure pH and temperature in the Devereux Slough for <em>EEMB 192: Freshwater Ecology</em>.</p>
-</div>
+<p class="caption">
 
-</div>
+Classifying sediment size distributions in Mission Creek for <em>ES 144: Fluvial Geomorphology</em>.
 
+</p>
+:::
+
+::: photo-item
+<img src="team.jpg" alt="Deploying custom water quality sensor"/>
+
+<p class="caption">
+
+Deploying our homemade water quality sensor to measure pH and temperature in the Devereux Slough for <em>EEMB 192: Freshwater Ecology</em>.
+
+</p>
+:::
+:::::
+
+```{=html}
 <style>
 .photo-grid {
   display: grid;
@@ -96,3 +99,4 @@ Here are some of my favorite classes I've taken in no particular order.
   text-align: center;
 }
 </style>
+```
