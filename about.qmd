@@ -17,7 +17,7 @@ listing:
 <div class="about-right">
 <h1 class="about-hello">Welcome!</h1>
 <hr class="about-divider">
-<p>Hi! I'm Vikesh, a fourth-year Hydrologic Science and Policy (B.S.) student at UC Santa Barbara. My interests span hydrology,spatial analysis, remote sensing, groundwater, and regulatory compliance. I hope my work will improve the lives of people and the health of our environment. 
+<p>Hi! I'm Vikesh, a fourth-year Hydrologic Science and Policy (B.S.) student at UC Santa Barbara. My interests span hydrology, spatial analysis, remote sensing, groundwater, and regulatory compliance. I hope my work will improve the lives of people and the health of our environment. 
 Feel free to reach out at **vikesh@ucsb.edu** </p>
 <div class="about-buttons">
 <a class="about-btn" href="https://www.linkedin.com/in/vikesh-dheeriya-60b471260/" target="_blank">LinkedIn</a>
