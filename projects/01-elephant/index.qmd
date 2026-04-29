@@ -20,9 +20,9 @@ weight: 1
 
 # Overview
 
-Seasonal movement is essential to African savanna elephants. In the wet season, elephants range widely as ephemeral water becomes available; in the dry season, movement contracts around permanent water. Climate change and rapid land conversion are likely to alter these patterns and further isolate protected populations.
+Seasonal movement is essential to African savanna elephants. In the wet season, elephants range widely as ephemeral water becomes available while in the dry season, movement contracts around permanent water. Climate change and rapid land conversion are likely to alter these patterns and further isolate protected populations.
 
-This project falls under the *Spatial planning for climate change: Land use for conservation, agriculture, and energy (SPARCLE)* program, a collaborative research effort with emLab & Conservation International. I helped build a seasonal, multi-scenario connectivity model to assess how elephant movement across KAZA may change by mid-century, integrating future land cover, surface water projections, resistance surfaces, and least-cost path connectivity across 11 protected areas.
+This project falls under the *Spatial planning for climate change: Land use for conservation, agriculture, and energy (SPARCLE)* program, a collaborative research effort with emLab & Conservation International. I worked with Bren MESM students and CI scientists to build a seasonal, multi-scenario connectivity model to assess how elephant movement across KAZA may change by mid-century, integrating future land cover, surface water projections, resistance surfaces, and least-cost path connectivity across 11 protected areas.
 
 A key contribution of my work was developing ephemeral waterhole frequency layers and projecting their decline under future climate scenarios. These layers were incorporated into seasonal resistance surfaces to capture how drying trends may reshape movement pathways. Under high emissions (SSP3–RCP7.0), cropland expansion increases movement costs and reduces corridor overlap, while under low-emissions pathways (SSP1–RCP2.6), connectivity remains largely stable.
 
@@ -44,17 +44,7 @@ We integrated spatial datasets representing roads, rivers, fences, land cover, e
 -   **Elephant data** – WDPA protected areas and GPS-collar tracks (2010–2020) from the University of Namibia\
 -   **Connectivity modeling** – Linkage Mapper v3.1.0 (ArcGIS) for cost-distance and LCP analysis
 
-All resistance-layer construction scripts, EWH workflow scripts, and LCP modeling code are archived in the project repository.
-
-# Ephemeral waterholes
-
-Ephemeral surface water is one of the strongest predictors of elephant movement decisions in KAZA. Elephants can detect and navigate toward waterholes from distances \>4 km (and in some cases \>40 km), and path-selection studies show that access to ephemeral water significantly improves model performance.
-
-For each seasonal window, water pixels were classified, summed, and normalized to produce a **0–1 EWH frequency raster** representing how often each pixel held water.
-
-Because the published Schaffer-Smith et al. raster only covered central KAZA, I replicated and extended their workflow to cover the full transboundary region in Google Earth Engine. Then, I used R and ArcGIS Pro to process the EWH layer into the connectivity model, defending my assumptions with literature to ensure an accurante representation of water's ecological significance in the region.
-
-## Land Cover Change Figures
+## Land Cover Change
 
 ::: center
 ![**Figure 2.** Projected cropland expansion and land-cover change in KAZA from 2015 to 2050 for SSP3-RCP7.0. (a) Spatial distribution of KAZA’s cropland in 2015 (yellow & blue), areas projected to be converted to cropland by 2050 (dark red) and abandoned cropland (blue). (b) Sankey diagram summarizing decadal land cover trajectories. Vertical nodes indicate the proportion of KAZA occupied by forest and shrubland (green), grassland (blue), and cropland (purple) at each time step. Curved links depict magnitude and direction of land-cover transitions. Barren, water and urban land cover classes were not included because they make up \~1% of KAZA.](cropland.png){fig-align="center" fig-width="80%"}

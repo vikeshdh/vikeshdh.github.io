@@ -1,0 +1,40 @@
+---
+title: "Vikesh Dheeriya"
+image: vikpic.JPG
+about:
+  template: trestles
+  image-width: 20em
+  image-shape: rectangle
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/vikesh-dheeriya-60b471260/
+    - icon: envelope
+      text: Email
+      href: mailto:vikesh@ucsb.edu
+    - icon: person
+      text: About
+      href: about.html
+    - icon: folder2-open
+      text: Portfolio
+      href: portfolio.html
+toc: false
+---
+
+## Welcome!
+
+<hr class="custom-line">
+
+I'm Vikesh, a fourth-year at UC Santa Barbara finishing a B.S. in Hydrologic Science and Policy. My interests span hydrology, remote sensing, and regulatory compliance. My background in water resources and GIS contributes to my goal of helping improve the resiliency of our water systems on a local scale.
+
+<hr class="custom-line">
+
+## Professional Interests
+
+Hydrology **|** Remote Sensing **|** Water Resources **|** GIS & Geospatial Analysis **|** Regulatory Compliance **|** Watershed Management
+
+<hr class="custom-line">
+
+## Featured Project
+
+[Agricultural Evapotranspiration and Groundwater Depletion in the Cuyama Valley](projects/cuyama-valley.html)

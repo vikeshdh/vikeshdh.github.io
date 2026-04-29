@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs      # GitHub Pages will serve from /docs
+  output-dir: docs
 
 search: false
 
@@ -9,18 +9,17 @@ website:
   google-analytics: "G-NG9FX3NQD3"
   navbar:
     left:
-      - text: About Me
+      - text: Home
+        href: index.qmd
+      - text: About
         href: about.qmd
       - text: Portfolio
-        href: projects.qmd  
-      - text: Cooking
-        href: viksveggies.qmd
+        href: portfolio.qmd
 
 format:
   html:
     theme: flatly
     css: styles.css
-    allow-html: true    # needed for our custom HTML
-    toc: true           # default; can override in individual pages
-
-editor: visual
+    allow-html: true
+    toc: false
+    mainfont: Nunito

@@ -1,0 +1,71 @@
+---
+title: "Environmental Impact Report: Hydrology Analysis"
+toc: true
+---
+
+<div class="project-meta">
+  <span class="status-badge badge-academic">Academic Project</span>
+  <span class="project-meta-org">UCSB Environmental Studies &nbsp;·&nbsp; 2024–2025</span>
+</div>
+
+## Overview
+
+Full Hydrology and Water Resources section of an Environmental Impact Report (EIR), prepared over a 20-week course in Advanced Environmental Impact Analysis at UCSB. The project required a complete CEQA-style assessment of hydrologic impacts for a hypothetical faculty housing and classroom development adjacent to campus.
+
+**Document scope:** 60+ pages covering environmental baseline, impact analysis, significance determination, and mitigation, all formatted to CEQA standards.
+
+## Scope
+
+This project is a full Environmental Impact Report (EIR) prepared over a 20-week course in Advanced Environmental Impact Analysis at UCSB. The assignment required a full assessment of hydrologic impacts associated with a hypothetical faculty housing and classroom development adjacent to campus under a CEQA framework.
+
+My role focused on:
+
+- conducting site visits to characterize existing watershed conditions;
+- reviewing stormwater infrastructure and water quality data for the project area;
+- evaluating short and long-term project impacts in the context of CEQA significance thresholds;
+- developing mitigation measures and environmentally superior alternatives.
+
+This project strengthened my technical understanding of stormwater regulations under the Clean Water Act while providing hands-on experience applying CEQA methodology to environmental compliance scenarios. 
+
+## Hydrologic Setting
+
+Baseline analysis included:
+
+- Watershed boundaries, slopes, and drainage pathways
+- Precipitation patterns and seasonal runoff characteristics
+
+## Impact Analysis Under CEQA
+
+Formal CEQA assessments examining:
+
+- Runoff generation and peak flow changes from increased impervious surfaces
+- Flood risk and stormwater pollution potential
+- Alterations to local stream hydrology during storm events
+- Pollutant loading and water quality degradation (metals, nutrients, sediments)
+- Compliance with SWMPP, NPDES, and SWRCB regulations
+
+## Mitigation Measures
+
+Feasible CEQA mitigation strategies developed:
+
+- Bioretention and infiltration basins
+- Permeable pavement systems
+- Construction-phase BMPs and SWPPP measures
+- Environmentally superior project alternatives
+
+## Full Report
+
+::: text-center
+[Open Full EIR (PDF)](02-eir/eir.pdf){.btn .btn-primary target="_blank"}
+:::
+
+<iframe src="02-eir/eir.pdf" width="100%" height="850px" style="border: none; border-radius: 8px; margin-top: 1rem;">
+</iframe>
+
+## Skills Demonstrated
+
+- CEQA hydrology and water quality impact analysis
+- Regulatory interpretation (NPDES, SWRCB, CEQA Guidelines Appendix G)
+- Technical writing in a formal EIR structure
+- Mitigation measure development
+- Soil classification and site assessment

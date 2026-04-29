@@ -1,0 +1,29 @@
+---
+title: "Aboveground Biomass Prediction using Machine Learning"
+toc: true
+---
+
+<div class="project-meta">
+  <span class="project-meta-org">Earth Research Institute, UCSB &nbsp;·&nbsp; 2025–Present</span>
+</div>
+
+## Overview
+
+Machine learning approach to predicting aboveground biomass in grassland ecosystems using multi-sensor remote sensing data. This project processes and validates reference observations from 47 LTER (Long Term Ecological Research) sites across the United States, integrating ground measurements with satellite imagery to build a biomass estimation model.
+
+## Data Preprocessing
+
+A Python-based preprocessing pipeline integrates satellite observations from three sensors: **Sentinel-1** (C-band SAR backscatter), **Sentinel-2** (multispectral optical), and **ALOS PALSAR** (L-band SAR), along with biomass measurements from NEON field sites. 
+
+Raw NEON biomass observations (~92,000+ records) are filtered to non-forest, grassland-dominated systems to ensure ecological consistency across sites, removing records that fall outside the target land cover class or lack sufficient spatial overlap with satellite footprints.
+
+## Data Quality Control
+
+I validate each reference site against historical satellite imagery using the Google Earth Engine Wayback Machine to assess land cover consistency over time. I manually review each site and assign a classification:
+
+- **CLEAN**: consistent grassland, suitable for model training
+- **REJECT**: land cover change, persistent cloud contamination, spatial mismatch, significant tree cover, or presence of surface water
+
+## Next Steps
+
+This project is actively in progress. The validated reference dataset is currently being finalized, with model development and cross-site validation to follow. Results are being prepared for publication.

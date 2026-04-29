@@ -1,115 +1,310 @@
 ---
 title: ""
 toc: false
-
-listing:
-  contents: aboutme
-  type: grid
-  grid-columns: 3
-  sort: "title asc"
 ---
 
-<div class="about-layout">
-<div class="about-left">
-<img src="vikpic2.jpg" alt="Photo of Vikesh" class="about-photo">
+```{=html}
+<div style="padding: 0.75rem 0 0.4rem 0;">
+<h1>Vikesh Dheeriya</h1>
+<p style="font-size:1.05rem;">I'm a senior at UCSB studying Hydrologic Science and Policy with a focus on remote sensing, GIS, and water resources. My academic and research experience spans habitat connectivity analysis, satellite data processing, groundwater policy, watershed management, and environmental compliance. Outside of school, I love swimming in the ocean, developing recipes for my cookbook, and playing basketball. Feel free to reach out at <a href="mailto:vikesh@ucsb.edu">vikesh@ucsb.edu</a>.</p>
+</div>
+```
+
+::: {.panel-tabset}
+
+## Experience
+
+```{=html}
+<div class="exp-list">
+
+<div class="exp-item">
+<div class="exp-date-col">
+  June 2026 – Present
+  <img src="screenshots/confluence.png" class="exp-logo" alt="Confluence Engineering">
+</div>
+<div class="exp-body">
+<div class="exp-role">Water Resources Intern</div>
+<div class="exp-org">Confluence Engineering</div>
+<p class="exp-desc">Assisting drinking water, wastewater, and groundwater projects throughout the Central Coast.</p>
+</div>
 </div>
 
-<div class="about-right">
-<h1 class="about-hello">Welcome!</h1>
-<hr class="about-divider">
-<p>Hi! I'm Vikesh, a fourth-year Hydrologic Science and Policy (B.S.) student at UC Santa Barbara. My interests span hydrology, spatial analysis, remote sensing, groundwater, and regulatory compliance. I hope my work will improve the lives of people and the health of our environment. 
-Feel free to reach out at **vikesh@ucsb.edu** </p>
-<div class="about-buttons">
-<a class="about-btn" href="https://www.linkedin.com/in/vikesh-dheeriya-60b471260/" target="_blank">LinkedIn</a>
-<a class="about-btn" href="https://github.com/vikeshdh" target="_blank">GitHub</a>
+<div class="exp-item">
+<div class="exp-date-col">
+  July 2025 – Present
+  <img src="screenshots/eri.png" class="exp-logo" alt="Earth Research Institute">
 </div>
+<div class="exp-body">
+<div class="exp-role">Research Intern</div>
+<div class="exp-org">Earth Research Institute, UCSB</div>
+<p class="exp-desc">Developing machine learning models to predict aboveground biomass in grasslands using multi-sensor remote sensing data (Sentinel-1/2, ALOS PALSAR) across the United States.</p>
 </div>
 </div>
 
+<div class="exp-item">
+<div class="exp-date-col">
+  July 2024 – October 2025
+  <div style="display:flex; gap:0.4rem; flex-wrap:wrap; margin-top:0.5rem;">
+    <img src="screenshots/emlab.png" class="exp-logo" style="margin-top:0;" alt="emLab">
+    <img src="screenshots/conservationinternational.png" class="exp-logo" style="margin-top:0;" alt="Conservation International">
+  </div>
+</div>
+<div class="exp-body">
+<div class="exp-role">Environmental Researcher</div>
+<div class="exp-org">Environmental Markets Lab &amp; Conservation International</div>
+<p class="exp-desc">Modeling elephant connectivity under different climate and socioeconomic land cover scenarios in the Kavango-Zambezi region of Southern Africa.</p>
+</div>
+</div>
+</div>
+```
+
+## Education
+
+```{=html}
+<div class="edu-block">
+<div class="edu-degree">B.S. Hydrologic Science and Policy</div>
+<div class="edu-institution">University of California, Santa Barbara</div>
+<div class="edu-meta">Expected June 2026 &nbsp;·&nbsp; Honors Program &nbsp;·&nbsp; GPA: 3.67 &nbsp;·&nbsp; Bren-Environmental Studies Fellowship (2023–2025)</div>
+<p style="font-size:0.875rem; color:#3a3a3c; margin:0.75rem 0 0.5rem 0;">Relevant coursework:</p>
+<div class="edu-courses">
+<span class="course-tag">Hydrology</span>
+<span class="course-tag">Water Quality</span>
+<span class="course-tag">UC Water Academy 2025</span>
+<span class="course-tag">Environmental Law</span>
+<span class="course-tag">Freshwater Ecology</span>
+<span class="course-tag">Soil Science</span>
+<span class="course-tag">CEQA Environmental Impact Analysis</span>
+<span class="course-tag">GIS for Environmental Applications</span>
+<span class="course-tag">Water Resource Management</span>
+<span class="course-tag">Advanced Groundwater Analysis</span>
+<span class="course-tag">Applied Watershed Management</span>
+<span class="course-tag">Quantitative Geomorphology</span>
+<span class="course-tag">Water Supply and Demand</span>
+<span class="course-tag">Soil Morphology, Genesis, and Classification</span>
+</div>
+</div>
+
+<div class="photos-grid" style="margin-top: 2rem;">
+<figure>
+<img src="aboutme/education/waterqualitysensor.jpeg" alt="Deploying our homemade water quality sensor to measure pH and temperature in the Devereux Slough">
+<figcaption>Deploying our homemade water quality sensor to measure pH and temperature in the Devereux Slough</figcaption>
+</figure>
+<figure>
+<img src="aboutme/education/soilscience.jpeg" alt="Soil pit excavation">
+<figcaption>Digging a soil pit in the Mojave Desert</figcaption>
+</figure>
+<figure>
+<img src="aboutme/education/river.jpg" alt="River field site">
+<figcaption>Classifying sediment size distributions in Mission Creek</figcaption>
+</figure>
+<figure>
+<img src="aboutme/research/vikresearch.JPG" alt="Conference presentation">
+<figcaption>Presenting research on modeling elephant connectivity</figcaption>
+</figure>
+</div>
+```
+
+## Extracurriculars
+
+```{=html}
+<div class="extra-item">
+<div class="extra-role">Diversity, Equity &amp; Inclusion Coordinator</div>
+<div class="extra-org">UCSB Hydrology Club</div>
+<div class="extra-date">October 2024 – Present</div>
+
+<div style="display:flex; gap:1.25rem; align-items:flex-start; margin:1rem 0 1.25rem 0;">
+  <img src="aboutme/extracurriculars/majordistribution.png"
+       alt="UCSB Major Distribution 2025-2026"
+       style="width:45%; flex-shrink:0; border:1.5px solid #dee2e6; border-radius:6px;">
+  <div>
+    <p class="extra-desc">The UCSB Hydrology Club, founded in 2023, brings together students interested in water-related careers, community projects, networking, and hands-on opportunities to support the next generation of water professionals. Activities include professional networking events, participation in Drill Days, UC Water Academy, and GRA meetings. We also host career panels with industry professionals, field trips, study sessions, grant-writing workshops, and guest lecturers.</p>
+    <p class="extra-desc">As DEI Coordinator, I lead outreach to underrepresented students in the environmental sciences. Of the 1,035 students enrolled in Environmental Studies at UCSB, only 20 are enrolled in Hydrologic Science and Policy, a gap the club actively works to close by exposing more environmental science undergraduates to hydrology and bridging industry and academia in the water sector.</p>
+  </div>
+</div>
+
+<div class="photos-grid">
+<figure>
+<img src="aboutme/extracurriculars/table.jpeg" alt="Club Rush recruiting table">
+<figcaption>Recruiting students at Club Rush</figcaption>
+</figure>
+<figure>
+<img src="aboutme/extracurriculars/gra.jpg" alt="GRA Central Coast Branch Meeting">
+<figcaption>First group of undergraduates to attend a GRA Central Coast Branch Meeting</figcaption>
+</figure>
+<figure>
+<img src="aboutme/extracurriculars/drill.jpg" alt="Ray Taber Drill Day Fresno">
+<figcaption>Attending 2025 Ray Taber Drill Day in Fresno</figcaption>
+</figure>
+<figure>
+<img src="aboutme/extracurriculars/darcy.jpg" alt="Lunch with Darcy Lecturer Dr. Grant Ferguson">
+<figcaption>Lunch with Darcy Lecturer Dr. Grant Ferguson</figcaption>
+</figure>
+<figure>
+<img src="aboutme/extracurriculars/grant.jpeg" alt="Hydrology club grant-writing workshop">
+<figcaption>Hydrology club grant-writing workshop</figcaption>
+</figure>
+</div>
+</div>
+```
+
+## Cooking
+
+```{=html}
 <style>
-.about-layout{display:flex;flex-wrap:wrap;gap:2.5rem;align-items:flex-start;margin:2rem 0 3rem 0;}
-.about-left{max-width:320px;text-align:center;}
-.about-photo{width:100%;border-radius:1.2rem;object-fit:cover;box-shadow:0 10px 28px rgba(0,0,0,0.18);}
-.about-name{margin:1rem 0 0 0;font-size:1.6rem;font-weight:700;}
-.about-right{flex:1;min-width:260px;}
-.about-hello{margin:0 0 .6rem 0;font-size:2.1rem;font-weight:700;}
-.about-divider{border:none;border-top:2px solid rgba(0,0,0,0.08);margin:.6rem 0 1rem 0;}
-.about-subheading{margin:.2rem 0 .4rem 0;font-size:1.4rem;font-weight:700;letter-spacing:.03em;}
-.about-right p{margin:0 0 .7rem 0;line-height:1.55;}
-.about-buttons{margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.6rem;}
-.about-btn{padding:.4rem .9rem;border-radius:.5rem;border:1px solid rgba(0,0,0,0.25);font-size:.92rem;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:.35rem;background:rgba(255,255,255,0.8);}
-.about-btn:hover{background:#ffffff;border-color:rgba(0,0,0,0.45);}
-@media(max-width:800px){.about-layout{flex-direction:column;align-items:center;text-align:left;}.about-right{width:100%;}.about-left{max-width:260px;}}
-
-/* LISTING GRID */
-#listing-aboutme .card,
-#listing-listing .card {
-border-radius: 1rem;
-border: 2px solid rgba(0,0,0,0.08);
-box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-transition: transform .15s ease, box-shadow .15s ease;
+.food-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  max-width: 1150px;
+  margin: 0 auto 2.5rem auto;
+  justify-items: center;
 }
-
-#listing-aboutme .card:hover,
-#listing-listing .card:hover {
-transform: translateY(-3px);
-box-shadow: 0 7px 22px rgba(0,0,0,0.12);
+.food-photo-tile {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 1.3rem;
+  box-shadow: 0 2px 16px rgba(20,90,50,0.12);
+  background: #fff;
+  cursor: pointer;
+  transition: box-shadow .18s;
+  margin: 0;
 }
-
-/* thumbnails */
-#listing-aboutme .card-img-top img,
-#listing-listing .card-img-top img {
-height: 450px;
-width: 100%;
-object-fit: cover;
-border-radius: 0.7rem 0.7rem 0 0;
+.food-photo-tile:hover {
+  box-shadow: 0 10px 36px rgba(20,90,50,0.19);
+  z-index: 2;
 }
-
-/* card body */
-#listing-aboutme .card-body,
-#listing-listing .card-body {
-padding: 1rem 1.15rem;
+.food-photo-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .23s;
 }
-
-/* typography */
-#listing-aboutme .listing-title,
-#listing-listing .listing-title {
-font-size: 1.2rem !important;
-font-weight: 600;
-margin-bottom: 0.15rem;
+.food-photo-tile:hover img {
+  transform: scale(1.09) rotate(-1.5deg);
 }
-
-#listing-aboutme .listing-description,
-#listing-listing .listing-description {
-font-size: 0.9rem;
-line-height: 1.45;
-color: #444;
-}
-
-
-</style>
-<style>
-/* existing styles ... */
-
-.footer-quote {
+.food-photo-caption {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: rgba(255,255,255,0.82);
+  color: #0C2B1A;
+  font-weight: 500;
+  padding: .35em .7em .38em .7em;
+  font-size: 0.86em;
   text-align: center;
-  margin: 3rem 0 1rem 0;
-  font-size: 1rem;
-  font-style: italic;
-  color: #444;
+  opacity: 0;
+  transition: opacity .15s;
+  border-radius: 0 0 1.3rem 1.3rem;
 }
-.footer-author {
-  display: block;
-  margin-top: .3rem;
-  font-size: .92rem;
-  color: #555;
+.food-photo-tile:hover .food-photo-caption {
+  opacity: 1;
 }
-/* Hide listing descriptions completely */
-.quarto-listing .listing-description {
-  display: none !important;
+@media (max-width: 1200px) {
+  .food-gallery-grid { grid-template-columns: repeat(2, 1fr); }
 }
-.quarto-listing .card-body {
-  padding-bottom: 0.6rem !important;
+@media (max-width: 800px) {
+  .food-gallery-grid { grid-template-columns: 1fr; }
+  .food-photo-tile { max-width: 99vw; }
 }
-
+.vv-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.vv-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  color: #1a2b4d;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.vv-blurb {
+  max-width: 640px;
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #2c3e50;
+}
+.vv-blurb a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.vv-blurb a:hover { text-decoration: underline; }
+.vv-refs {
+  max-width: 640px;
+  margin: 0 auto 2rem auto;
+  font-size: 0.75rem;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+.vv-refs a { color: var(--accent); }
 </style>
+
+<div class="vv-center">
+<div class="vv-title">viks veggies</div>
+<div class="vv-blurb">
+  A plant-based cooking page to promote sustainable eating habits that help reduce
+  <a href="https://doi.org/10.1126/science.aaq0216" target="_blank">water consumption and land use</a><sup>[1]</sup>,
+  risk of <a href="https://doi.org/10.1161/JAHA.119.012865" target="_blank">cardiovascular disease</a><sup>[2]</sup>,
+  and other <a href="https://doi.org/10.1080/10408398.2016.1138447" target="_blank">chronic health conditions</a><sup>[3]</sup>.
+  Reach out if you want the recipe for any of these dishes or if you have any questions!
+</div>
+
+<div class="food-gallery-grid">
+  <div class="food-photo-tile">
+    <img src="food1.jpg" alt="fried cauliflower">
+    <div class="food-photo-caption">crispy mushrooms, tofu ricotta, balsamic glaze</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food2.jpg" alt="shoyu ramen">
+    <div class="food-photo-caption">shoyu ramen, seitan chashu</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food3.JPG" alt="ratatouille">
+    <div class="food-photo-caption">ratatouille</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food4.jpg" alt="tofu steak">
+    <div class="food-photo-caption">tofu steak, roasted red pepper sauce, saffron rice</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food5.jpg" alt="greek-style seitan">
+    <div class="food-photo-caption">greek-style seitan, crispy chickpeas, tzatziki</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food6.jpg" alt="birria noodles">
+    <div class="food-photo-caption">birria noodles</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food7.JPG" alt="yeasted apple pancakes">
+    <div class="food-photo-caption">yeasted apple pancakes</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food8.jpg" alt="chana masala">
+    <div class="food-photo-caption">chana masala, mint chutney</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food9.JPG" alt="pesto pasta">
+    <div class="food-photo-caption">pesto pasta, king oyster mushrooms</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food10.jpg" alt="plant-based steak">
+    <div class="food-photo-caption">plant-based steak, butternut squash fusilli, roasted eggplant</div>
+  </div>
+</div>
+
+<div class="vv-refs">
+  <strong>References</strong><br>
+  [1] Poore, J. &amp; Nemecek, T. (2018). Reducing food's environmental footprints through producers and consumers. <em>Science</em>, 360(6392), 987–992. <a href="https://doi.org/10.1126/science.aaq0216" target="_blank">doi:10.1126/science.aaq0216</a><br>
+  [2] Kim, H. et al. (2019). Plant-based diets are associated with a lower risk of incident cardiovascular disease. <em>J Am Heart Assoc</em>, 8(16):e012865. <a href="https://doi.org/10.1161/JAHA.119.012865" target="_blank">doi:10.1161/JAHA.119.012865</a><br>
+  [3] Dinu, M. et al. (2017). Vegetarian, vegan diets and multiple health outcomes: A systematic review with meta-analysis. <em>Crit Rev Food Sci Nutr</em>, 57(17):3640–3649. <a href="https://doi.org/10.1080/10408398.2016.1138447" target="_blank">doi:10.1080/10408398.2016.1138447</a>
+</div>
+</div>
+```
+
+:::

@@ -1,0 +1,56 @@
+---
+title: "Viks Veggies"
+toc: false
+---
+
+<div class="project-meta">
+  <span class="status-badge badge-personal">Personal Project</span>
+  <span class="project-meta-org">Ongoing</span>
+</div>
+
+## Overview
+
+Urban gardening and cooking project exploring sustainable growing practices, soil science, and plant-based food production. Growing vegetables connects directly to what I study: soil dynamics, water use, and how land supports biological systems at a very tangible scale.
+
+## Focus Areas
+
+- Sustainable and low-input growing practices
+- Soil amendment and compost use
+- Seasonal crop planning and rotation
+- Water efficiency and conservation in small-scale horticulture
+
+<style>
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.food-grid figure {
+  margin: 0;
+}
+.food-grid img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+.food-grid figcaption {
+  font-size: 0.78rem;
+  color: #6e6e73;
+  margin-top: 0.35rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .food-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+
+<div class="food-grid">
+  <figure><img src="../food2.jpg" alt="shoyu ramen"><figcaption>shoyu ramen, seitan chashu</figcaption></figure>
+  <figure><img src="../food4.jpg" alt="tofu steak"><figcaption>tofu steak, roasted red pepper sauce, saffron rice</figcaption></figure>
+  <figure><img src="../food5.jpg" alt="greek seitan"><figcaption>greek-style seitan, crispy chickpeas</figcaption></figure>
+  <figure><img src="../food8.jpg" alt="chana masala"><figcaption>chana masala, mint chutney</figcaption></figure>
+  <figure><img src="../food10.jpg" alt="plant-based steak"><figcaption>plant-based steak, butternut squash fusilli</figcaption></figure>
+</div>

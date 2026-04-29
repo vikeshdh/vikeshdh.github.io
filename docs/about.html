@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>about – Vikesh Dheeriya</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -30,17 +33,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4607ecead0b33e35d2b1c739de3c325b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NG9FX3NQD3"></script>
 
 <script type="text/javascript">
@@ -107,40 +80,11 @@ gtag('js', new Date());
 gtag('config', 'G-NG9FX3NQD3', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -158,16 +102,16 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About Me</span></a>
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="./portfolio.html"> 
 <span class="menu-text">Portfolio</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./viksveggies.html"> 
-<span class="menu-text">Cooking</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -182,428 +126,543 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Vikesh Dheeriya</h1></header>
 
 
 
 
-<div class="about-layout">
-<div class="about-left">
-<p><img src="vikpic2.jpg" alt="Photo of Vikesh" class="about-photo"></p>
+<div style="padding: 0.75rem 0 0.4rem 0;">
+
+<p style="font-size:1.05rem;">I'm a senior at UCSB studying Hydrologic Science and Policy with a focus on remote sensing, GIS, and water resources. My academic and research experience spans habitat connectivity analysis, satellite data processing, groundwater policy, watershed management, and environmental compliance. Outside of school, I love swimming in the ocean, developing recipes for my cookbook, and playing basketball. Feel free to reach out at <a href="mailto:vikesh@ucsb.edu">vikesh@ucsb.edu</a>.</p>
 </div>
-<div class="about-right">
-<h1 class="about-hello">
-Welcome!
-</h1>
-<hr class="about-divider">
-<p>
-Hi! I’m Vikesh, a fourth-year Hydrologic Science and Policy (B.S.) student at UC Santa Barbara. My interests span hydrology, spatial analysis, remote sensing, groundwater, and regulatory compliance. I hope my work will improve the lives of people and the health of our environment. Feel free to reach out at <strong>vikesh@ucsb.edu</strong>
-</p>
-<div class="about-buttons">
-<p><a class="about-btn" href="https://www.linkedin.com/in/vikesh-dheeriya-60b471260/" target="_blank">LinkedIn</a> <a class="about-btn" href="https://github.com/vikeshdh" target="_blank">GitHub</a></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Experience</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Education</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Extracurriculars</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Cooking</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="exp-list">
+
+<div class="exp-item">
+<div class="exp-date-col">
+  June 2026 – Present
+  <img src="screenshots/confluence.png" class="exp-logo" alt="Confluence Engineering">
+</div>
+<div class="exp-body">
+<div class="exp-role">Water Resources Intern</div>
+<div class="exp-org">Confluence Engineering</div>
+<p class="exp-desc">Assisting drinking water, wastewater, and groundwater projects throughout the Central Coast.</p>
+</div>
+</div>
+
+<div class="exp-item">
+<div class="exp-date-col">
+  July 2025 – Present
+  <img src="screenshots/eri.png" class="exp-logo" alt="Earth Research Institute">
+</div>
+<div class="exp-body">
+<div class="exp-role">Research Intern</div>
+<div class="exp-org">Earth Research Institute, UCSB</div>
+<p class="exp-desc">Developing machine learning models to predict aboveground biomass in grasslands using multi-sensor remote sensing data (Sentinel-1/2, ALOS PALSAR) across the United States.</p>
+</div>
+</div>
+
+<div class="exp-item">
+<div class="exp-date-col">
+  July 2024 – October 2025
+  <div style="display:flex; gap:0.4rem; flex-wrap:wrap; margin-top:0.5rem;">
+    <img src="screenshots/emlab.png" class="exp-logo" style="margin-top:0;" alt="emLab">
+    <img src="screenshots/conservationinternational.png" class="exp-logo" style="margin-top:0;" alt="Conservation International">
+  </div>
+</div>
+<div class="exp-body">
+<div class="exp-role">Environmental Researcher</div>
+<div class="exp-org">Environmental Markets Lab &amp; Conservation International</div>
+<p class="exp-desc">Modeling elephant connectivity under different climate and socioeconomic land cover scenarios in the Kavango-Zambezi region of Southern Africa.</p>
 </div>
 </div>
 </div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="edu-block">
+<div class="edu-degree">B.S. Hydrologic Science and Policy</div>
+<div class="edu-institution">University of California, Santa Barbara</div>
+<div class="edu-meta">Expected June 2026 &nbsp;·&nbsp; Honors Program &nbsp;·&nbsp; GPA: 3.67 &nbsp;·&nbsp; Bren-Environmental Studies Fellowship (2023–2025)</div>
+<p style="font-size:0.875rem; color:#3a3a3c; margin:0.75rem 0 0.5rem 0;">Relevant coursework:</p>
+<div class="edu-courses">
+<span class="course-tag">Hydrology</span>
+<span class="course-tag">Water Quality</span>
+<span class="course-tag">UC Water Academy 2025</span>
+<span class="course-tag">Environmental Law</span>
+<span class="course-tag">Freshwater Ecology</span>
+<span class="course-tag">Soil Science</span>
+<span class="course-tag">CEQA Environmental Impact Analysis</span>
+<span class="course-tag">GIS for Environmental Applications</span>
+<span class="course-tag">Water Resource Management</span>
+<span class="course-tag">Advanced Groundwater Analysis</span>
+<span class="course-tag">Applied Watershed Management</span>
+<span class="course-tag">Quantitative Geomorphology</span>
+<span class="course-tag">Water Supply and Demand</span>
+<span class="course-tag">Soil Morphology, Genesis, and Classification</span>
+</div>
+</div>
+
+<div class="photos-grid" style="margin-top: 2rem;">
+<figure class="figure">
+<img src="aboutme/education/waterqualitysensor.jpeg" alt="Deploying our homemade water quality sensor to measure pH and temperature in the Devereux Slough" class="figure-img">
+<figcaption>Deploying our homemade water quality sensor to measure pH and temperature in the Devereux Slough</figcaption>
+</figure>
+<figure class="figure">
+<img src="aboutme/education/soilscience.jpeg" alt="Soil pit excavation" class="figure-img">
+<figcaption>Digging a soil pit in the Mojave Desert</figcaption>
+</figure>
+<figure class="figure">
+<img src="aboutme/education/river.jpg" alt="River field site" class="figure-img">
+<figcaption>Classifying sediment size distributions in Mission Creek</figcaption>
+</figure>
+<figure class="figure">
+<img src="aboutme/research/vikresearch.JPG" alt="Conference presentation" class="figure-img">
+<figcaption>Presenting research on modeling elephant connectivity</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="extra-item">
+<div class="extra-role">Diversity, Equity &amp; Inclusion Coordinator</div>
+<div class="extra-org">UCSB Hydrology Club</div>
+<div class="extra-date">October 2024 – Present</div>
+
+<div style="display:flex; gap:1.25rem; align-items:flex-start; margin:1rem 0 1.25rem 0;">
+  <img src="aboutme/extracurriculars/majordistribution.png" alt="UCSB Major Distribution 2025-2026" style="width:45%; flex-shrink:0; border:1.5px solid #dee2e6; border-radius:6px;">
+  <div>
+    <p class="extra-desc">The UCSB Hydrology Club, founded in 2023, brings together students interested in water-related careers, community projects, networking, and hands-on opportunities to support the next generation of water professionals. Activities include professional networking events, participation in Drill Days, UC Water Academy, and GRA meetings. We also host career panels with industry professionals, field trips, study sessions, grant-writing workshops, and guest lecturers.</p>
+    <p class="extra-desc">As DEI Coordinator, I lead outreach to underrepresented students in the environmental sciences. Of the 1,035 students enrolled in Environmental Studies at UCSB, only 20 are enrolled in Hydrologic Science and Policy, a gap the club actively works to close by exposing more environmental science undergraduates to hydrology and bridging industry and academia in the water sector.</p>
+  </div>
+</div>
+
+<div class="photos-grid">
+<figure class="figure">
+<img src="aboutme/extracurriculars/table.jpeg" alt="Club Rush recruiting table" class="figure-img">
+<figcaption>Recruiting students at Club Rush</figcaption>
+</figure>
+<figure class="figure">
+<img src="aboutme/extracurriculars/gra.jpg" alt="GRA Central Coast Branch Meeting" class="figure-img">
+<figcaption>First group of undergraduates to attend a GRA Central Coast Branch Meeting</figcaption>
+</figure>
+<figure class="figure">
+<img src="aboutme/extracurriculars/drill.jpg" alt="Ray Taber Drill Day Fresno" class="figure-img">
+<figcaption>Attending 2025 Ray Taber Drill Day in Fresno</figcaption>
+</figure>
+<figure class="figure">
+<img src="aboutme/extracurriculars/darcy.jpg" alt="Lunch with Darcy Lecturer Dr. Grant Ferguson" class="figure-img">
+<figcaption>Lunch with Darcy Lecturer Dr. Grant Ferguson</figcaption>
+</figure>
+<figure class="figure">
+<img src="aboutme/extracurriculars/grant.jpeg" alt="Hydrology club grant-writing workshop" class="figure-img">
+<figcaption>Hydrology club grant-writing workshop</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <style>
-.about-layout{display:flex;flex-wrap:wrap;gap:2.5rem;align-items:flex-start;margin:2rem 0 3rem 0;}
-.about-left{max-width:320px;text-align:center;}
-.about-photo{width:100%;border-radius:1.2rem;object-fit:cover;box-shadow:0 10px 28px rgba(0,0,0,0.18);}
-.about-name{margin:1rem 0 0 0;font-size:1.6rem;font-weight:700;}
-.about-right{flex:1;min-width:260px;}
-.about-hello{margin:0 0 .6rem 0;font-size:2.1rem;font-weight:700;}
-.about-divider{border:none;border-top:2px solid rgba(0,0,0,0.08);margin:.6rem 0 1rem 0;}
-.about-subheading{margin:.2rem 0 .4rem 0;font-size:1.4rem;font-weight:700;letter-spacing:.03em;}
-.about-right p{margin:0 0 .7rem 0;line-height:1.55;}
-.about-buttons{margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.6rem;}
-.about-btn{padding:.4rem .9rem;border-radius:.5rem;border:1px solid rgba(0,0,0,0.25);font-size:.92rem;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:.35rem;background:rgba(255,255,255,0.8);}
-.about-btn:hover{background:#ffffff;border-color:rgba(0,0,0,0.45);}
-@media(max-width:800px){.about-layout{flex-direction:column;align-items:center;text-align:left;}.about-right{width:100%;}.about-left{max-width:260px;}}
-
-/* LISTING GRID */
-#listing-aboutme .card,
-#listing-listing .card {
-border-radius: 1rem;
-border: 2px solid rgba(0,0,0,0.08);
-box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-transition: transform .15s ease, box-shadow .15s ease;
+.food-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  max-width: 1150px;
+  margin: 0 auto 2.5rem auto;
+  justify-items: center;
 }
-
-#listing-aboutme .card:hover,
-#listing-listing .card:hover {
-transform: translateY(-3px);
-box-shadow: 0 7px 22px rgba(0,0,0,0.12);
+.food-photo-tile {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 1.3rem;
+  box-shadow: 0 2px 16px rgba(20,90,50,0.12);
+  background: #fff;
+  cursor: pointer;
+  transition: box-shadow .18s;
+  margin: 0;
 }
-
-/* thumbnails */
-#listing-aboutme .card-img-top img,
-#listing-listing .card-img-top img {
-height: 450px;
-width: 100%;
-object-fit: cover;
-border-radius: 0.7rem 0.7rem 0 0;
+.food-photo-tile:hover {
+  box-shadow: 0 10px 36px rgba(20,90,50,0.19);
+  z-index: 2;
 }
-
-/* card body */
-#listing-aboutme .card-body,
-#listing-listing .card-body {
-padding: 1rem 1.15rem;
+.food-photo-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .23s;
 }
-
-/* typography */
-#listing-aboutme .listing-title,
-#listing-listing .listing-title {
-font-size: 1.2rem !important;
-font-weight: 600;
-margin-bottom: 0.15rem;
+.food-photo-tile:hover img {
+  transform: scale(1.09) rotate(-1.5deg);
 }
-
-#listing-aboutme .listing-description,
-#listing-listing .listing-description {
-font-size: 0.9rem;
-line-height: 1.45;
-color: #444;
-}
-
-
-</style>
-<style>
-/* existing styles ... */
-
-.footer-quote {
+.food-photo-caption {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: rgba(255,255,255,0.82);
+  color: #0C2B1A;
+  font-weight: 500;
+  padding: .35em .7em .38em .7em;
+  font-size: 0.86em;
   text-align: center;
-  margin: 3rem 0 1rem 0;
-  font-size: 1rem;
-  font-style: italic;
-  color: #444;
+  opacity: 0;
+  transition: opacity .15s;
+  border-radius: 0 0 1.3rem 1.3rem;
 }
-.footer-author {
-  display: block;
-  margin-top: .3rem;
-  font-size: .92rem;
-  color: #555;
+.food-photo-tile:hover .food-photo-caption {
+  opacity: 1;
 }
-/* Hide listing descriptions completely */
-.quarto-listing .listing-description {
-  display: none !important;
+@media (max-width: 1200px) {
+  .food-gallery-grid { grid-template-columns: repeat(2, 1fr); }
 }
-.quarto-listing .card-body {
-  padding-bottom: 0.6rem !important;
+@media (max-width: 800px) {
+  .food-gallery-grid { grid-template-columns: 1fr; }
+  .food-photo-tile { max-width: 99vw; }
 }
-
+.vv-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.vv-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  color: #1a2b4d;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.vv-blurb {
+  max-width: 640px;
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #2c3e50;
+}
+.vv-blurb a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.vv-blurb a:hover { text-decoration: underline; }
+.vv-refs {
+  max-width: 640px;
+  margin: 0 auto 2rem auto;
+  font-size: 0.75rem;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+.vv-refs a { color: var(--accent); }
 </style>
 
+<div class="vv-center">
+<div class="vv-title">viks veggies</div>
+<div class="vv-blurb">
+  A plant-based cooking page to promote sustainable eating habits that help reduce
+  <a href="https://doi.org/10.1126/science.aaq0216" target="_blank">water consumption and land use</a><sup>[1]</sup>,
+  risk of <a href="https://doi.org/10.1161/JAHA.119.012865" target="_blank">cardiovascular disease</a><sup>[2]</sup>,
+  and other <a href="https://doi.org/10.1080/10408398.2016.1138447" target="_blank">chronic health conditions</a><sup>[3]</sup>.
+  Reach out if you want the recipe for any of these dishes or if you have any questions!
+</div>
+
+<div class="food-gallery-grid">
+  <div class="food-photo-tile">
+    <img src="food1.jpg" alt="fried cauliflower">
+    <div class="food-photo-caption">crispy mushrooms, tofu ricotta, balsamic glaze</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food2.jpg" alt="shoyu ramen">
+    <div class="food-photo-caption">shoyu ramen, seitan chashu</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food3.JPG" alt="ratatouille">
+    <div class="food-photo-caption">ratatouille</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food4.jpg" alt="tofu steak">
+    <div class="food-photo-caption">tofu steak, roasted red pepper sauce, saffron rice</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food5.jpg" alt="greek-style seitan">
+    <div class="food-photo-caption">greek-style seitan, crispy chickpeas, tzatziki</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food6.jpg" alt="birria noodles">
+    <div class="food-photo-caption">birria noodles</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food7.JPG" alt="yeasted apple pancakes">
+    <div class="food-photo-caption">yeasted apple pancakes</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food8.jpg" alt="chana masala">
+    <div class="food-photo-caption">chana masala, mint chutney</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food9.JPG" alt="pesto pasta">
+    <div class="food-photo-caption">pesto pasta, king oyster mushrooms</div>
+  </div>
+  <div class="food-photo-tile">
+    <img src="food10.jpg" alt="plant-based steak">
+    <div class="food-photo-caption">plant-based steak, butternut squash fusilli, roasted eggplant</div>
+  </div>
+</div>
+
+<div class="vv-refs">
+  <strong>References</strong><br>
+  [1] Poore, J. &amp; Nemecek, T. (2018). Reducing food's environmental footprints through producers and consumers. <em>Science</em>, 360(6392), 987–992. <a href="https://doi.org/10.1126/science.aaq0216" target="_blank">doi:10.1126/science.aaq0216</a><br>
+  [2] Kim, H. et al. (2019). Plant-based diets are associated with a lower risk of incident cardiovascular disease. <em>J Am Heart Assoc</em>, 8(16):e012865. <a href="https://doi.org/10.1161/JAHA.119.012865" target="_blank">doi:10.1161/JAHA.119.012865</a><br>
+  [3] Dinu, M. et al. (2017). Vegetarian, vegan diets and multiple health outcomes: A systematic review with meta-analysis. <em>Crit Rev Food Sci Nutr</em>, 57(17):3640–3649. <a href="https://doi.org/10.1080/10408398.2016.1138447" target="_blank">doi:10.1080/10408398.2016.1138447</a>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1768256846201" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
-<a href="./aboutme/research/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./aboutme/research/grassland.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Current Research Focus
-</h5>
-<div class="card-text listing-description">
-<em>Quantifying Aboveground Biomass of California’s Grasslands using Multi-Sensor Fusion and Machine Learning</em>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
 
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1770141103026" data-listing-reading-time-sort="5" data-listing-word-count-sort="842">
-<a href="./aboutme/education/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./aboutme/education/vikresearch.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Education
-</h5>
-<div class="card-text listing-description">
-I will be graduating in 2026 with a B.S. in <strong>Hydrologic Science and Policy</strong> as an Honors student. For two years, I was a recipient of the Bren-Environmental Studies Fellowship…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1770140672521" data-listing-reading-time-sort="3" data-listing-word-count-sort="499">
-<a href="./aboutme/extracurriculars/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./aboutme/extracurriculars/field.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Extracurriculars
-</h5>
-<div class="card-text listing-description">
-The UCSB Hydrology Club, founded in 2023, works to engage students with local water issues, introduce career pathways in hydrology and water resources, connect students with…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main></div>
-
-
- <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
         }
       }
       return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -611,186 +670,162 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
- <!-- /content -->
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
 
 
 
