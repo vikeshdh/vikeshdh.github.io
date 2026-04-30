@@ -265,7 +265,7 @@ toc: false
     <div class="food-photo-caption">shoyu ramen, seitan chashu</div>
   </div>
   <div class="food-photo-tile">
-    <img src="food3.JPG" alt="ratatouille">
+    <img src="food3.jpg" alt="ratatouille">
     <div class="food-photo-caption">ratatouille</div>
   </div>
   <div class="food-photo-tile">
@@ -281,7 +281,7 @@ toc: false
     <div class="food-photo-caption">birria noodles</div>
   </div>
   <div class="food-photo-tile">
-    <img src="food7.JPG" alt="yeasted apple pancakes">
+    <img src="food7.jpg" alt="yeasted apple pancakes">
     <div class="food-photo-caption">yeasted apple pancakes</div>
   </div>
   <div class="food-photo-tile">
@@ -289,7 +289,7 @@ toc: false
     <div class="food-photo-caption">chana masala, mint chutney</div>
   </div>
   <div class="food-photo-tile">
-    <img src="food9.JPG" alt="pesto pasta">
+    <img src="food9.jpg" alt="pesto pasta">
     <div class="food-photo-caption">pesto pasta, king oyster mushrooms</div>
   </div>
   <div class="food-photo-tile">
