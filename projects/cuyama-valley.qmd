@@ -6,15 +6,15 @@ toc: true
 
 *March 2026*
 
-Using the OpenET platform, an ensemble of six satellite-based evapotranspiration models at 30-m resolution derived from Landsat imagery, I analyzed how agricultural water demand by crop type relates to aquifer drawdown in the Cuyama Valley from 2016 to 2024. Crop classifications came from the DWR i15 2024 Provisional Crop Mapping dataset. Net irrigation water requirement (NIWR) was computed as OpenET ET minus GRIDMET precipitation over the April–October growing season.
+I analyzed how agricultural water demand by crop type relates to aquifer drawdown in the Cuyama Valley from 2016 to 2024 using OpenET data. This publicly available platform is an ensemble of six evapotranspiration models at 30-m resolution from Landsat imagery. Crop classifications came from the DWR i15 2024 Provisional Crop Mapping dataset. Net irrigation water requirement (NIWR) was computed as OpenET ET minus GRIDMET precipitation over the April–October growing season.
 
 **Key findings:**
 
-- The ten fastest-declining monitoring wells are deepening at **7.6–9.3 ft/yr**, far exceeding the GSP's 2 ft/yr sustainability threshold
-- Truck, Nursery & Berry crops (which include carrots and represent 49% of basin agricultural revenue) peak in ET demand in July, two months later than Grain & Hay crops, sustaining high irrigation demand when the aquifer is already drawn down from earlier-season pumping
-- Peak basin groundwater depth reaches **455 ft below land surface in August**, aligning precisely with peak NIWR from Truck, Nursery & Berry crops
-- The fastest-depleting wells cluster spatially in the central zone, directly beneath Truck, Nursery & Berry parcels
-- A pumping framework that treats all crops equally underestimates the contribution of high-value, water-intensive perennials to overdraft; crop-differentiated pumping allocations may be necessary for the GSP to meet its 2040 targets
+- The water levels at the ten fastest-declining wells are droppping by 7.6–9.3 feet per year, exceeding the GSP's 2 feet per year sustainability threshold
+- Truck, Nursery & Berry crops (which include carrots and represent 49% of basin agricultural revenue) peak in ET demand in July, two months later than Grain & Hay crops. Consequently, demand for irrigation is prolonged over two growing seasons.
+- Peak basin groundwater depth reaches 455 feet below land surface in August, aligning directly with peak irrigation demand from Truck, Nursery & Berry crops
+- The wells declining at the fastest rate cluster in Central Cuyama beneath many Truck, Nursery & Berry parcels
+- A pumping framework that treats all crops equally may underestimate the contribution of high-ET perennials to significant overdraft. Differentiating allocations by crop type is one approach to meeting 2040 targets, though its effectiveness depends heavily on the political and legal decisions made in setting the initial allocations and designing the governance rules.
 
 ```{=html}
 <figure style="margin:1.5rem 0;">
