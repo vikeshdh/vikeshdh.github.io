@@ -6,7 +6,7 @@ toc: false
 ```{=html}
 <div style="padding: 0.75rem 0 0.4rem 0;">
 <h1>Vikesh Dheeriya</h1>
-<p style="font-size:1.05rem;">I'm a senior at UCSB studying Hydrologic Science and Policy with a focus on remote sensing, GIS, and water resources. My academic and research experience spans habitat connectivity analysis, satellite data processing, groundwater policy, watershed management, and environmental compliance. Outside of school, I love swimming in the ocean, developing recipes for my cookbook, and playing basketball. Feel free to reach out at <a href="mailto:vikesh@ucsb.edu">vikesh@ucsb.edu</a>.</p>
+<p style="font-size:1.05rem;">I'm a senior at UCSB studying Hydrologic Science and Policy with a focus on remote sensing, GIS, and water resources. My academic and research experience spans satellite data processing, habitat connectivity analysis, groundwater policy, watershed management, and environmental compliance under CEQA. Outside of school, I love swimming in the ocean, developing recipes for my cookbook, and playing basketball. Feel free to reach out at <a href="mailto:vikesh@ucsb.edu">vikesh@ucsb.edu</a>.</p>
 </div>
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: "Vikesh Dheeriya"
-image: vikpic.JPG
+image: vikhead.JPG
 about:
   template: trestles
   image-width: 20em
@@ -25,7 +25,7 @@ toc: false
 
 <hr class="custom-line">
 
-I'm Vikesh, a fourth-year at UC Santa Barbara finishing a B.S. in Hydrologic Science and Policy. My interests span hydrology, remote sensing, and regulatory compliance. My background in water resources and GIS contributes to my goal of helping improve the resiliency of our water systems on a local scale.
+I'm Vikesh, a fourth-year at UC Santa Barbara finishing a B.S. in Hydrologic Science and Policy. My interests span hydrology, remote sensing, and regulatory compliance. My background in water resources and GIS contribute to my goal of helping improve the resiliency of our water systems on a local scale.
 
 <hr class="custom-line">
 
